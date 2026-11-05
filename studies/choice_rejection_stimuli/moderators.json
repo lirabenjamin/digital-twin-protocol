@@ -1,0 +1,802 @@
+[
+ {
+  "id": "m001_two_option_set",
+  "group": "Decision structure",
+  "name": "Two-option set",
+  "question": "How clearly were Option A and Option B the only two options the other person was choosing between?",
+  "anchor0": "many other options were possible",
+  "anchor10": "clearly only these two"
+ },
+ {
+  "id": "m002_mutual_exclusivity",
+  "group": "Decision structure",
+  "name": "Mutual exclusivity",
+  "question": "How clearly could the other person end up with only one of the two options, not both?",
+  "anchor0": "they could easily have both",
+  "anchor10": "only one was possible"
+ },
+ {
+  "id": "m003_rejection_implies_b",
+  "group": "Decision structure",
+  "name": "Rejection implies B",
+  "question": "If you read only that the other person did not choose Option A, how sure would you be that they ended up with Option B?",
+  "anchor0": "not sure at all",
+  "anchor10": "completely sure"
+ },
+ {
+  "id": "m004_option_similarity",
+  "group": "Decision structure",
+  "name": "Option similarity",
+  "question": "How similar are Option A and Option B (the same kind of thing, for the same purpose)?",
+  "anchor0": "very different kinds of things",
+  "anchor10": "nearly the same kind of thing"
+ },
+ {
+  "id": "m005_alignability",
+  "group": "Decision structure",
+  "name": "Alignability",
+  "question": "How easy is it to compare Option A and Option B on the same attributes (for example price, speed, size)?",
+  "anchor0": "they share no attributes to compare",
+  "anchor10": "every attribute lines up"
+ },
+ {
+  "id": "m006_clear_trade_off",
+  "group": "Decision structure",
+  "name": "Clear trade-off",
+  "question": "How clearly does each option win on a different attribute, so that choosing one means giving something up?",
+  "anchor0": "no real trade-off",
+  "anchor10": "a sharp trade-off"
+ },
+ {
+  "id": "m007_dominance",
+  "group": "Decision structure",
+  "name": "Dominance",
+  "question": "How close is one option to being better than the other on every attribute that matters?",
+  "anchor0": "a genuine trade-off, neither is better overall",
+  "anchor10": "one option is better on everything"
+ },
+ {
+  "id": "m008_price_gap",
+  "group": "Decision structure",
+  "name": "Price gap",
+  "question": "How different are the two options in price or cost?",
+  "anchor0": "same price",
+  "anchor10": "very different prices"
+ },
+ {
+  "id": "m009_b_cheaper",
+  "group": "Decision structure",
+  "name": "B cheaper",
+  "question": "How much cheaper is Option B than Option A?",
+  "anchor0": "B is much more expensive",
+  "anchor10": "B is much cheaper"
+ },
+ {
+  "id": "m010_effort_gap",
+  "group": "Decision structure",
+  "name": "Effort gap",
+  "question": "How different are the two options in the time or effort they take from you?",
+  "anchor0": "same effort",
+  "anchor10": "very different effort"
+ },
+ {
+  "id": "m011_prior_preference_for_b",
+  "group": "Prior preference",
+  "name": "Prior preference for B",
+  "question": "Before hearing about the other person, how much would a typical person prefer Option B over Option A?",
+  "anchor0": "strongly prefer A",
+  "anchor10": "strongly prefer B"
+ },
+ {
+  "id": "m012_balance",
+  "group": "Prior preference",
+  "name": "Balance",
+  "question": "Before hearing about the other person, how evenly balanced is this decision for a typical person?",
+  "anchor0": "one option is clearly better",
+  "anchor10": "perfectly balanced"
+ },
+ {
+  "id": "m013_a_is_the_default",
+  "group": "Prior preference",
+  "name": "A is the default",
+  "question": "How much is Option A the default, usual or expected option in this situation?",
+  "anchor0": "not at all the default",
+  "anchor10": "clearly the default"
+ },
+ {
+  "id": "m014_b_is_the_default",
+  "group": "Prior preference",
+  "name": "B is the default",
+  "question": "How much is Option B the default, usual or expected option in this situation?",
+  "anchor0": "not at all the default",
+  "anchor10": "clearly the default"
+ },
+ {
+  "id": "m015_b_is_newer",
+  "group": "Prior preference",
+  "name": "B is newer",
+  "question": "How much newer or less familiar is Option B than Option A?",
+  "anchor0": "B is much more familiar than A",
+  "anchor10": "B is much newer than A"
+ },
+ {
+  "id": "m016_b_is_riskier",
+  "group": "Prior preference",
+  "name": "B is riskier",
+  "question": "How much riskier or less predictable is Option B than Option A?",
+  "anchor0": "B is much safer than A",
+  "anchor10": "B is much riskier than A"
+ },
+ {
+  "id": "m017_b_is_premium",
+  "group": "Prior preference",
+  "name": "B is premium",
+  "question": "How much is Option B the higher-quality or premium option?",
+  "anchor0": "A is clearly the premium option",
+  "anchor10": "B is clearly the premium option"
+ },
+ {
+  "id": "m018_b_is_mainstream",
+  "group": "Prior preference",
+  "name": "B is mainstream",
+  "question": "How much is Option B the more popular, mainstream choice?",
+  "anchor0": "A is clearly more popular",
+  "anchor10": "B is clearly more popular"
+ },
+ {
+  "id": "m019_taste_based",
+  "group": "Taste and quality",
+  "name": "Taste-based",
+  "question": "How much does the right choice depend on personal taste rather than on objective quality?",
+  "anchor0": "purely objective quality",
+  "anchor10": "purely personal taste"
+ },
+ {
+  "id": "m020_vertical_ranking",
+  "group": "Taste and quality",
+  "name": "Vertical ranking",
+  "question": "How much would nearly everyone rank the two options the same way?",
+  "anchor0": "people would split",
+  "anchor10": "nearly everyone would agree"
+ },
+ {
+  "id": "m021_quality_uncertainty",
+  "group": "Taste and quality",
+  "name": "Quality uncertainty",
+  "question": "How hard is it to judge the quality of the options from what you know before using them?",
+  "anchor0": "quality is obvious",
+  "anchor10": "quality is very hard to judge"
+ },
+ {
+  "id": "m022_experience_good",
+  "group": "Taste and quality",
+  "name": "Experience good",
+  "question": "How much can you only find out how good an option is by trying it?",
+  "anchor0": "you can tell before trying",
+  "anchor10": "you only know after trying"
+ },
+ {
+  "id": "m023_hidden_flaws",
+  "group": "Taste and quality",
+  "name": "Hidden flaws",
+  "question": "How likely is it that one of the options has a flaw that is not obvious from its description?",
+  "anchor0": "very unlikely",
+  "anchor10": "very likely"
+ },
+ {
+  "id": "m024_expertise_needed",
+  "group": "Taste and quality",
+  "name": "Expertise needed",
+  "question": "How much expertise is needed to choose well between these options?",
+  "anchor0": "none",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m025_information_in_the_scenario",
+  "group": "Taste and quality",
+  "name": "Information in the scenario",
+  "question": "How much does the scenario tell you, so that you could decide well on your own?",
+  "anchor0": "almost nothing",
+  "anchor10": "everything you need"
+ },
+ {
+  "id": "m026_prior_knowledge",
+  "group": "Taste and quality",
+  "name": "Prior knowledge",
+  "question": "How much would a typical adult already know about these kinds of options?",
+  "anchor0": "nothing",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m027_verifiability",
+  "group": "Taste and quality",
+  "name": "Verifiability",
+  "question": "How easy is it to check the claims about each option yourself before deciding?",
+  "anchor0": "impossible to check",
+  "anchor10": "easy to check"
+ },
+ {
+  "id": "m028_objective_criteria",
+  "group": "Taste and quality",
+  "name": "Objective criteria",
+  "question": "How much can the decision be made on clear objective criteria such as price, time or specifications?",
+  "anchor0": "no objective criteria",
+  "anchor10": "fully objective criteria"
+ },
+ {
+  "id": "m029_flaw_inference",
+  "group": "Inference from the decision",
+  "name": "Flaw inference",
+  "question": "If you learned that someone passed over Option A, how strongly would you conclude that Option A has a problem?",
+  "anchor0": "not at all",
+  "anchor10": "very strongly"
+ },
+ {
+  "id": "m030_merit_inference",
+  "group": "Inference from the decision",
+  "name": "Merit inference",
+  "question": "If you learned that someone picked Option B, how strongly would you conclude that Option B is good?",
+  "anchor0": "not at all",
+  "anchor10": "very strongly"
+ },
+ {
+  "id": "m031_reason_to_reject_a_is_clear",
+  "group": "Inference from the decision",
+  "name": "Reason to reject A is clear",
+  "question": "How easy is it to guess why someone would pass over Option A?",
+  "anchor0": "no idea why",
+  "anchor10": "the reason is obvious"
+ },
+ {
+  "id": "m032_reason_to_pick_b_is_clear",
+  "group": "Inference from the decision",
+  "name": "Reason to pick B is clear",
+  "question": "How easy is it to guess why someone would pick Option B?",
+  "anchor0": "no idea why",
+  "anchor10": "the reason is obvious"
+ },
+ {
+  "id": "m033_idiosyncratic_choice",
+  "group": "Inference from the decision",
+  "name": "Idiosyncratic choice",
+  "question": "How much could the other person's decision reflect their own personal circumstances rather than the quality of the options?",
+  "anchor0": "only the quality of the options",
+  "anchor10": "only their own circumstances"
+ },
+ {
+  "id": "m034_a_downsides_salient",
+  "group": "Inference from the decision",
+  "name": "A downsides salient",
+  "question": "How noticeable are Option A's downsides in the description?",
+  "anchor0": "no downsides mentioned",
+  "anchor10": "downsides stand out"
+ },
+ {
+  "id": "m035_b_downsides_salient",
+  "group": "Inference from the decision",
+  "name": "B downsides salient",
+  "question": "How noticeable are Option B's downsides in the description?",
+  "anchor0": "no downsides mentioned",
+  "anchor10": "downsides stand out"
+ },
+ {
+  "id": "m036_a_upsides_salient",
+  "group": "Inference from the decision",
+  "name": "A upsides salient",
+  "question": "How noticeable are Option A's upsides in the description?",
+  "anchor0": "no upsides mentioned",
+  "anchor10": "upsides stand out"
+ },
+ {
+  "id": "m037_b_upsides_salient",
+  "group": "Inference from the decision",
+  "name": "B upsides salient",
+  "question": "How noticeable are Option B's upsides in the description?",
+  "anchor0": "no upsides mentioned",
+  "anchor10": "upsides stand out"
+ },
+ {
+  "id": "m038_prevention_focus",
+  "group": "Inference from the decision",
+  "name": "Prevention focus",
+  "question": "How much is this decision about avoiding a bad outcome rather than getting a good one?",
+  "anchor0": "only about getting something good",
+  "anchor10": "only about avoiding something bad"
+ },
+ {
+  "id": "m039_loss_potential",
+  "group": "Inference from the decision",
+  "name": "Loss potential",
+  "question": "How much could the wrong choice lead to a real loss or harm?",
+  "anchor0": "no loss possible",
+  "anchor10": "a serious loss"
+ },
+ {
+  "id": "m040_regret_potential",
+  "group": "Inference from the decision",
+  "name": "Regret potential",
+  "question": "How much would a person regret making the wrong choice here?",
+  "anchor0": "no regret",
+  "anchor10": "strong regret"
+ },
+ {
+  "id": "m041_source_expertise",
+  "group": "Source",
+  "name": "Source expertise",
+  "question": "How much expertise does the person who tells you (or shows you) the decision have about these options?",
+  "anchor0": "none",
+  "anchor10": "an expert"
+ },
+ {
+  "id": "m042_source_trustworthiness",
+  "group": "Source",
+  "name": "Source trustworthiness",
+  "question": "How much can you trust the person who tells you (or shows you) the decision?",
+  "anchor0": "not at all",
+  "anchor10": "completely"
+ },
+ {
+  "id": "m043_source_incentive",
+  "group": "Source",
+  "name": "Source incentive",
+  "question": "How much might the person who tells you gain from steering your decision?",
+  "anchor0": "nothing to gain",
+  "anchor10": "a lot to gain"
+ },
+ {
+  "id": "m044_decider_similarity",
+  "group": "Source",
+  "name": "Decider similarity",
+  "question": "How similar is the person who made the decision to you, in needs and situation?",
+  "anchor0": "very different from you",
+  "anchor10": "in exactly your situation"
+ },
+ {
+  "id": "m045_same_purpose",
+  "group": "Source",
+  "name": "Same purpose",
+  "question": "How much was the other person deciding for the same purpose as you?",
+  "anchor0": "a completely different purpose",
+  "anchor10": "exactly the same purpose"
+ },
+ {
+  "id": "m046_relationship_closeness",
+  "group": "Source",
+  "name": "Relationship closeness",
+  "question": "How close is your relationship to the person who made the decision?",
+  "anchor0": "a stranger",
+  "anchor10": "a close friend or family member"
+ },
+ {
+  "id": "m047_decider_deliberation",
+  "group": "Source",
+  "name": "Decider deliberation",
+  "question": "How carefully does the other person seem to have made the decision?",
+  "anchor0": "on a whim",
+  "anchor10": "after careful thought"
+ },
+ {
+  "id": "m048_decider_informed",
+  "group": "Source",
+  "name": "Decider informed",
+  "question": "How well informed was the other person when deciding (for example, having tried or compared both)?",
+  "anchor0": "knew nothing",
+  "anchor10": "knew both options well"
+ },
+ {
+  "id": "m049_first_hand_report",
+  "group": "Source",
+  "name": "First-hand report",
+  "question": "Do you hear about the decision from the person who made it, rather than from someone else or by watching?",
+  "anchor0": "from someone else or by watching",
+  "anchor10": "directly from the decider"
+ },
+ {
+  "id": "m050_decider_expertise",
+  "group": "Source",
+  "name": "Decider expertise",
+  "question": "How much expertise does the person who made the decision have about these options?",
+  "anchor0": "none",
+  "anchor10": "an expert"
+ },
+ {
+  "id": "m051_decider_status",
+  "group": "Source",
+  "name": "Decider status",
+  "question": "How much would people look up to the person who made the decision?",
+  "anchor0": "not at all",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m052_many_deciders",
+  "group": "Source",
+  "name": "Many deciders",
+  "question": "How much does the information reflect the decisions of many people rather than one person?",
+  "anchor0": "one person",
+  "anchor10": "many people"
+ },
+ {
+  "id": "m053_directness",
+  "group": "Channel and message",
+  "name": "Directness",
+  "question": "How directly are you told about the decision, rather than having to infer it?",
+  "anchor0": "you have to infer it",
+  "anchor10": "you are told plainly"
+ },
+ {
+  "id": "m054_public_decision",
+  "group": "Channel and message",
+  "name": "Public decision",
+  "question": "How public was the other person's decision?",
+  "anchor0": "completely private",
+  "anchor10": "made in public"
+ },
+ {
+  "id": "m055_written_channel",
+  "group": "Channel and message",
+  "name": "Written channel",
+  "question": "Do you learn about the decision in writing or online, rather than in person?",
+  "anchor0": "in person, face to face",
+  "anchor10": "in writing or online"
+ },
+ {
+  "id": "m056_recency",
+  "group": "Channel and message",
+  "name": "Recency",
+  "question": "How recently did the other person make the decision?",
+  "anchor0": "long ago",
+  "anchor10": "just now"
+ },
+ {
+  "id": "m057_overheard",
+  "group": "Channel and message",
+  "name": "Overheard",
+  "question": "How much do you learn about the decision by chance (overhearing or watching) rather than in a message meant for you?",
+  "anchor0": "a message meant for you",
+  "anchor10": "entirely by chance"
+ },
+ {
+  "id": "m058_solicited",
+  "group": "Channel and message",
+  "name": "Solicited",
+  "question": "How much did you ask for this information?",
+  "anchor0": "you did not ask at all",
+  "anchor10": "you asked for it directly"
+ },
+ {
+  "id": "m059_message_length",
+  "group": "Channel and message",
+  "name": "Message length",
+  "question": "How long and detailed is the sentence that tells you about the decision?",
+  "anchor0": "very short",
+  "anchor10": "long and detailed"
+ },
+ {
+  "id": "m060_naturalness_of_the_rejection_wording",
+  "group": "Channel and message",
+  "name": "Naturalness of the rejection wording",
+  "question": "How natural does the second version (what the person did not choose) sound in this context?",
+  "anchor0": "very odd",
+  "anchor10": "completely natural"
+ },
+ {
+  "id": "m061_naturalness_of_the_choice_wording",
+  "group": "Channel and message",
+  "name": "Naturalness of the choice wording",
+  "question": "How natural does the first version (what the person chose) sound in this context?",
+  "anchor0": "very odd",
+  "anchor10": "completely natural"
+ },
+ {
+  "id": "m062_deliberate_rejection",
+  "group": "Channel and message",
+  "name": "Deliberate rejection",
+  "question": "In the second version, how much does not choosing Option A sound like a deliberate rejection, rather than simply picking the other one?",
+  "anchor0": "simply picking the other one",
+  "anchor10": "a deliberate rejection"
+ },
+ {
+  "id": "m063_emotional_tone",
+  "group": "Channel and message",
+  "name": "Emotional tone",
+  "question": "How emotional is the way the decision is communicated?",
+  "anchor0": "completely neutral",
+  "anchor10": "very emotional"
+ },
+ {
+  "id": "m064_vividness",
+  "group": "Channel and message",
+  "name": "Vividness",
+  "question": "How vivid and concrete is the scenario?",
+  "anchor0": "abstract and bare",
+  "anchor10": "very vivid"
+ },
+ {
+  "id": "m065_financial_stakes",
+  "group": "Stakes",
+  "name": "Financial stakes",
+  "question": "How much money is at stake in this decision?",
+  "anchor0": "almost none",
+  "anchor10": "a large amount"
+ },
+ {
+  "id": "m066_health_and_safety_stakes",
+  "group": "Stakes",
+  "name": "Health and safety stakes",
+  "question": "How much are health or safety at stake?",
+  "anchor0": "not at all",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m067_social_stakes",
+  "group": "Stakes",
+  "name": "Social stakes",
+  "question": "How much could the choice affect how other people see you?",
+  "anchor0": "not at all",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m068_irreversibility",
+  "group": "Stakes",
+  "name": "Irreversibility",
+  "question": "How hard would it be to undo or change the choice later?",
+  "anchor0": "easy to undo",
+  "anchor10": "impossible to undo"
+ },
+ {
+  "id": "m069_duration_of_consequences",
+  "group": "Stakes",
+  "name": "Duration of consequences",
+  "question": "How long would you live with the consequences of the choice?",
+  "anchor0": "a few minutes",
+  "anchor10": "years"
+ },
+ {
+  "id": "m070_decision_frequency",
+  "group": "Stakes",
+  "name": "Decision frequency",
+  "question": "How often do people make this kind of decision?",
+  "anchor0": "once in a lifetime",
+  "anchor10": "every day"
+ },
+ {
+  "id": "m071_time_pressure",
+  "group": "Stakes",
+  "name": "Time pressure",
+  "question": "How much time pressure is there to decide?",
+  "anchor0": "no pressure",
+  "anchor10": "must decide right now"
+ },
+ {
+  "id": "m072_deciding_for_others",
+  "group": "Stakes",
+  "name": "Deciding for others",
+  "question": "How much is the decision made for someone other than yourself?",
+  "anchor0": "only for yourself",
+  "anchor10": "only for someone else"
+ },
+ {
+  "id": "m073_accountability",
+  "group": "Stakes",
+  "name": "Accountability",
+  "question": "How much would you have to explain or justify the choice to other people?",
+  "anchor0": "not at all",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m074_involvement",
+  "group": "Stakes",
+  "name": "Involvement",
+  "question": "How much would a typical person care about getting this decision right?",
+  "anchor0": "not at all",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m075_hedonic",
+  "group": "Domain",
+  "name": "Hedonic",
+  "question": "How much is this decision about pleasure or enjoyment rather than practical use?",
+  "anchor0": "purely practical",
+  "anchor10": "purely about pleasure"
+ },
+ {
+  "id": "m076_experiential",
+  "group": "Domain",
+  "name": "Experiential",
+  "question": "How much is this a choice between experiences rather than material things?",
+  "anchor0": "material things",
+  "anchor10": "experiences"
+ },
+ {
+  "id": "m077_service",
+  "group": "Domain",
+  "name": "Service",
+  "question": "How much is this a choice between services rather than physical products?",
+  "anchor0": "physical products",
+  "anchor10": "services"
+ },
+ {
+  "id": "m078_health_domain",
+  "group": "Domain",
+  "name": "Health domain",
+  "question": "How much is this decision about health or medical care?",
+  "anchor0": "not at all",
+  "anchor10": "entirely"
+ },
+ {
+  "id": "m079_money_domain",
+  "group": "Domain",
+  "name": "Money domain",
+  "question": "How much is this decision about money management, banking, insurance or payment?",
+  "anchor0": "not at all",
+  "anchor10": "entirely"
+ },
+ {
+  "id": "m080_food_domain",
+  "group": "Domain",
+  "name": "Food domain",
+  "question": "How much is this decision about food or drink?",
+  "anchor0": "not at all",
+  "anchor10": "entirely"
+ },
+ {
+  "id": "m081_technology_domain",
+  "group": "Domain",
+  "name": "Technology domain",
+  "question": "How much is this decision about technology, devices or software?",
+  "anchor0": "not at all",
+  "anchor10": "entirely"
+ },
+ {
+  "id": "m082_family_and_children",
+  "group": "Domain",
+  "name": "Family and children",
+  "question": "How much is this decision about children or family care?",
+  "anchor0": "not at all",
+  "anchor10": "entirely"
+ },
+ {
+  "id": "m083_home_domain",
+  "group": "Domain",
+  "name": "Home domain",
+  "question": "How much is this decision about the home, home repair or furnishing?",
+  "anchor0": "not at all",
+  "anchor10": "entirely"
+ },
+ {
+  "id": "m084_leisure_and_travel",
+  "group": "Domain",
+  "name": "Leisure and travel",
+  "question": "How much is this decision about leisure, hobbies or travel?",
+  "anchor0": "not at all",
+  "anchor10": "entirely"
+ },
+ {
+  "id": "m085_work_and_learning",
+  "group": "Domain",
+  "name": "Work and learning",
+  "question": "How much is this decision about work, school or learning a skill?",
+  "anchor0": "not at all",
+  "anchor10": "entirely"
+ },
+ {
+  "id": "m086_visibility_of_your_choice",
+  "group": "Social and identity",
+  "name": "Visibility of your choice",
+  "question": "How visible would your choice be to other people?",
+  "anchor0": "nobody would see it",
+  "anchor10": "everyone would see it"
+ },
+ {
+  "id": "m087_identity_relevance",
+  "group": "Social and identity",
+  "name": "Identity relevance",
+  "question": "How much does the choice express who you are?",
+  "anchor0": "not at all",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m088_uniqueness_motive",
+  "group": "Social and identity",
+  "name": "Uniqueness motive",
+  "question": "How much might a person want to choose differently from others here?",
+  "anchor0": "not at all",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m089_conformity_norm",
+  "group": "Social and identity",
+  "name": "Conformity norm",
+  "question": "How much do people usually follow what others do in this kind of decision?",
+  "anchor0": "not at all",
+  "anchor10": "almost always"
+ },
+ {
+  "id": "m090_reliance_on_recommendations",
+  "group": "Social and identity",
+  "name": "Reliance on recommendations",
+  "question": "How much do people usually rely on other people's advice for this kind of decision?",
+  "anchor0": "not at all",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m091_reviews_available",
+  "group": "Social and identity",
+  "name": "Reviews available",
+  "question": "How easy would it be to find reviews or ratings of these options?",
+  "anchor0": "impossible",
+  "anchor10": "very easy"
+ },
+ {
+  "id": "m092_scarcity",
+  "group": "Social and identity",
+  "name": "Scarcity",
+  "question": "How much could the other person's choice make the option they took less available to you?",
+  "anchor0": "not at all",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m093_moral_dimension",
+  "group": "Social and identity",
+  "name": "Moral dimension",
+  "question": "How much does this decision involve ethics or personal values?",
+  "anchor0": "not at all",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "m094_personal_fit",
+  "group": "Fit and context",
+  "name": "Personal fit",
+  "question": "How much does the best option depend on the chooser's own body, schedule, home or skills?",
+  "anchor0": "not at all",
+  "anchor10": "entirely"
+ },
+ {
+  "id": "m095_complexity",
+  "group": "Fit and context",
+  "name": "Complexity",
+  "question": "How complex is this decision overall?",
+  "anchor0": "very simple",
+  "anchor10": "very complex"
+ },
+ {
+  "id": "m096_familiar_situation",
+  "group": "Fit and context",
+  "name": "Familiar situation",
+  "question": "How familiar would this situation be to a typical adult in the United States?",
+  "anchor0": "very unfamiliar",
+  "anchor10": "very familiar"
+ },
+ {
+  "id": "m097_realism",
+  "group": "Fit and context",
+  "name": "Realism",
+  "question": "How realistic and believable is the scenario?",
+  "anchor0": "not believable",
+  "anchor10": "completely believable"
+ },
+ {
+  "id": "m098_expected_disagreement",
+  "group": "Fit and context",
+  "name": "Expected disagreement",
+  "question": "How much would reasonable people disagree about which option is better?",
+  "anchor0": "everyone would agree",
+  "anchor10": "people would split evenly"
+ },
+ {
+  "id": "m099_gift_or_care",
+  "group": "Fit and context",
+  "name": "Gift or care",
+  "question": "How much is the choice a gift or an act of care for someone?",
+  "anchor0": "not at all",
+  "anchor10": "entirely"
+ },
+ {
+  "id": "m100_social_setting",
+  "group": "Fit and context",
+  "name": "Social setting",
+  "question": "How many other people are present when you make this decision?",
+  "anchor0": "you are alone",
+  "anchor10": "many people around"
+ }
+]

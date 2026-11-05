@@ -1,0 +1,1809 @@
+[
+ {
+  "stimulus": "s001",
+  "draw_id": "draw0115",
+  "text": "Go to the outlet mall for $120 or spend the day at home for $0",
+  "options": [
+   {
+    "label": "Go to the outlet mall",
+    "cost": 120
+   },
+   {
+    "label": "Spend the day at home",
+    "cost": 0,
+    "label_original": "Spend the Saturday at home"
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 20,
+  "scenario": "Your sister has been talking about a weekend trip to the outlet mall for weeks, and she's invited you along. You've had a stressful stretch lately and the time together would mean a lot to both of you, and you could pick up a few things you actually need. However, a day at the outlet mall would cost you about $120 once you add up gas, lunch, and shopping, while staying home costs $0 and would let you rest and catch up on chores. What do you do?"
+ },
+ {
+  "stimulus": "s002",
+  "draw_id": "draw1778",
+  "text": "Book the weekend coastal trip with lodging and meals out for $120 or stay home and cook from pantry staples for $10",
+  "options": [
+   {
+    "label": "Book the weekend coastal trip with lodging and meals out",
+    "cost": 120
+   },
+   {
+    "label": "Stay home and cook from pantry staples",
+    "cost": 10
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 10,
+  "scenario": "You've had a draining few weeks and could really use a change of scenery to recharge. A weekend coastal trip with lodging and meals out would give you a real break, but it would cost $120. You could also stay home and cook from pantry staples for about $10, which would let you rest and keep your budget intact. What do you do?"
+ },
+ {
+  "stimulus": "s003",
+  "draw_id": "draw0143",
+  "text": "Upgrade to the premium family-size meal kit subscription for $95 or keep buying groceries at the regular store for $60",
+  "options": [
+   {
+    "label": "Upgrade to the premium family-size meal kit subscription",
+    "cost": 95
+   },
+   {
+    "label": "Keep buying groceries at the regular store",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 155,
+  "scenario": "Between work and your kids' activities, evenings have been chaotic, and you're tired of scrambling to figure out dinner. The premium family-size meal kit subscription ($95) would deliver pre-portioned ingredients and easy recipes, which could save you time and stress and get everyone eating together more often. You could also keep buying groceries at the regular store ($60), which costs less and lets you choose exactly what your family likes, though it takes more planning and effort. What do you do?"
+ },
+ {
+  "stimulus": "s004",
+  "draw_id": "draw1118",
+  "text": "Get a new dishwasher installed by the appliance company for $450 or fix the old one yourself with a replacement part for $60",
+  "options": [
+   {
+    "label": "Get a new dishwasher installed by the appliance company",
+    "cost": 450
+   },
+   {
+    "label": "Fix the old one yourself with a replacement part",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 8,
+  "draws_in_cluster": 145,
+  "scenario": "Your dishwasher has stopped draining, and the dishes are piling up while you juggle a busy schedule and a full house. The appliance company can install a brand-new, more reliable dishwasher for $450, and it would be running right away. Or you could watch a repair video and fix the old one yourself with a replacement part for $60, though it would take your free evening and might not hold up. What do you do?"
+ },
+ {
+  "stimulus": "s005",
+  "draw_id": "draw0111",
+  "text": "Join the team dinner at the restaurant for $60 or skip it and eat dinner at home for $0",
+  "options": [
+   {
+    "label": "Join the team dinner at the restaurant",
+    "cost": 60
+   },
+   {
+    "label": "Skip it and eat dinner at home",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 36,
+  "scenario": "Your team is heading to a restaurant for a group dinner, and you've been feeling a bit disconnected from your coworkers lately, so this would be a good chance to bond. Your share would come to $60, though, and you could just as easily skip it and eat dinner at home for $0. What do you do?"
+ },
+ {
+  "stimulus": "s006",
+  "draw_id": "draw0023",
+  "text": "Take a rideshare to the airport for $45 or take the shuttle bus to the airport for $8",
+  "options": [
+   {
+    "label": "Take a rideshare to the airport",
+    "cost": 45
+   },
+   {
+    "label": "Take the shuttle bus to the airport",
+    "cost": 8
+   }
+  ],
+  "situations_in_cluster": 7,
+  "draws_in_cluster": 111,
+  "scenario": "You have an early flight tomorrow and have barely slept this week because of a stressful project at work. A rideshare to the airport would get you there quickly and let you rest in the back seat for $45. The shuttle bus costs only $8, but it runs on a fixed schedule, makes several stops, and you would need to haul your luggage to the pickup spot. What do you do?"
+ },
+ {
+  "stimulus": "s007",
+  "draw_id": "draw0001",
+  "text": "Book a weekend stay at a resort spa for $420 or drive to the lake cabin your family already has for $60",
+  "options": [
+   {
+    "label": "Book a weekend stay at a resort spa",
+    "cost": 420
+   },
+   {
+    "label": "Drive to the lake cabin your family already has",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 8,
+  "draws_in_cluster": 115,
+  "scenario": "After months of long hours and little sleep, you feel completely worn out and could really use a weekend where nothing is expected of you. A resort spa would let you be pampered and fully unplug for $420, while your family's lake cabin is a quiet, peaceful place you can drive to for about $60 in gas and groceries. The cabin would be restful too, but you know you'd probably end up fixing things around it and fielding calls from relatives. What do you do?"
+ },
+ {
+  "stimulus": "s008",
+  "draw_id": "draw0004",
+  "text": "Buy the name-brand organic groceries for $140 or buy the store-brand groceries for $95",
+  "options": [
+   {
+    "label": "Buy the name-brand organic groceries",
+    "cost": 140
+   },
+   {
+    "label": "Buy the store-brand groceries",
+    "cost": 95
+   }
+  ],
+  "situations_in_cluster": 9,
+  "draws_in_cluster": 297,
+  "scenario": "You're doing the weekly grocery shop for your household, and you've been trying to eat healthier lately. You can buy the name-brand organic groceries for $140, which you feel better about serving your family, or the store-brand groceries for $95, which would leave more room in your budget for other bills. What do you do?"
+ },
+ {
+  "stimulus": "s009",
+  "draw_id": "draw0075",
+  "text": "Upgrade to the premium cable and internet bundle with faster speeds for $140 or keep your current internet plan for $85",
+  "options": [
+   {
+    "label": "Upgrade to the premium cable and internet bundle with faster speeds",
+    "cost": 140
+   },
+   {
+    "label": "Keep your current internet plan",
+    "cost": 85
+   }
+  ],
+  "situations_in_cluster": 12,
+  "draws_in_cluster": 283,
+  "replaces": "draw1590",
+  "scenario": "You've started working from home a few days a week, and your video calls keep freezing at the worst moments, which is stressing you out. The provider offers to upgrade you to the premium cable and internet bundle with faster speeds, which would make this month's bill $140, while keeping your current internet plan would make this month's bill $85. Your current connection mostly works fine for everything else, but the upgrade would likely fix the call problems. What do you do?"
+ },
+ {
+  "stimulus": "s010",
+  "draw_id": "draw0289",
+  "text": "Replace the worn-out tires on your car for $420 or get the worst tire patched for $25",
+  "options": [
+   {
+    "label": "Replace the worn-out tires on your car",
+    "cost": 420
+   },
+   {
+    "label": "Get the worst tire patched",
+    "cost": 25
+   }
+  ],
+  "situations_in_cluster": 2,
+  "draws_in_cluster": 37,
+  "scenario": "The tires on your car are worn thin, and you've been feeling uneasy driving on them, especially when the roads are wet and you have your family in the car. A shop can replace all of them for $420, which would give you peace of mind for years. Or you could have the worst tire patched for $25 and keep an eye on the others, which would hold you over while money is tight. What do you do?"
+ },
+ {
+  "stimulus": "s011",
+  "draw_id": "draw2893",
+  "text": "Go to the Branson dinner show with your wife for $120 or stay home and watch the game on your own TV for $0",
+  "options": [
+   {
+    "label": "Go to the Branson dinner show with your wife",
+    "cost": 120
+   },
+   {
+    "label": "Stay home and watch the game on your own TV",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 7,
+  "scenario": "Your wife has been looking forward to a night out together, and with how busy things have been lately, you both could use some time to connect. A dinner show in Branson would cost $120, but you'd be treating her to something special. On the other hand, the big game is on tonight, and you could stay home and watch it on your own TV for $0 and relax. What do you do?"
+ },
+ {
+  "stimulus": "s012",
+  "draw_id": "draw0181",
+  "text": "Take the guided day trip with the tour group for $85 or drive yourself and explore on your own for $12",
+  "options": [
+   {
+    "label": "Take the guided day trip with the tour group",
+    "cost": 85
+   },
+   {
+    "label": "Drive yourself and explore on your own",
+    "cost": 12
+   }
+  ],
+  "situations_in_cluster": 9,
+  "draws_in_cluster": 22,
+  "scenario": "You're on vacation and want to see the scenic sights outside town, but you don't know the area well and worry about getting lost or missing the best spots. A guided day trip with a tour group would take care of the planning and give you local stories and insider stops for $85, while driving yourself and exploring on your own would cost only $12 for gas. What do you do?"
+ },
+ {
+  "stimulus": "s013",
+  "draw_id": "draw0221",
+  "text": "Pick up the prepared deli dinner for $22 or buy ingredients and cook at home for $9",
+  "options": [
+   {
+    "label": "Pick up the prepared deli dinner",
+    "cost": 22
+   },
+   {
+    "label": "Buy ingredients and cook at home",
+    "cost": 9
+   }
+  ],
+  "situations_in_cluster": 11,
+  "draws_in_cluster": 97,
+  "scenario": "You got home late after a long, draining day and you're running on empty. You could pick up a prepared deli dinner for $22 and eat right away, or buy ingredients for $9 and cook at home, which would take time and energy you don't have much of. What do you do?"
+ },
+ {
+  "stimulus": "s014",
+  "draw_id": "draw3303",
+  "text": "Upgrade to the premium grandkids' birthday package at the amusement park for $120 or take the standard day passes and pack your own lunch for $60",
+  "options": [
+   {
+    "label": "Upgrade to the premium grandkids' birthday package at the amusement park",
+    "cost": 120
+   },
+   {
+    "label": "Take the standard day passes and pack your own lunch",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 14,
+  "scenario": "You're taking your grandkids to the amusement park for a birthday outing, and you want the day to feel special for them. The park offers a premium birthday package for $120 that includes skip-the-line access and a party area, and you know the kids would be thrilled. You could instead buy the standard day passes and pack your own lunch for $60, which would still give them a fun day together, just a more ordinary one. What do you do?"
+ },
+ {
+  "stimulus": "s015",
+  "draw_id": "draw0082",
+  "text": "Hire a cleaning service for $120 or clean the house yourself for $0",
+  "options": [
+   {
+    "label": "Hire a cleaning service",
+    "cost": 120
+   },
+   {
+    "label": "Clean the house yourself",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 188,
+  "scenario": "Your in-laws are arriving tomorrow afternoon, and after a long, draining week you have almost no energy left to get the house ready. A cleaning service can come and do everything for $120, which would leave you time to rest. You could also clean the house yourself for $0, though it would take most of your free time and leave you exhausted. What do you do?"
+ },
+ {
+  "stimulus": "s016",
+  "draw_id": "draw0397",
+  "text": "Buy the premium case and screen protector for $60 or keep using the phone without any new protection for $0",
+  "options": [
+   {
+    "label": "Buy the premium case and screen protector",
+    "cost": 60
+   },
+   {
+    "label": "Keep using the phone without any new protection",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 7,
+  "scenario": "You just picked up a new phone, and you're nervous about it because you've cracked a screen before and had to pay for an expensive repair. A premium case and screen protector would give you real peace of mind and help the phone hold its resale value, but it would cost $60. You could also skip the extras and keep using the phone with no new protection for $0, and just be careful with it. What do you do?"
+ },
+ {
+  "stimulus": "s017",
+  "draw_id": "draw0149",
+  "text": "Pick up the prescription at the pharmacy near your apartment for $25 or ask the clinic to send the generic to the discount pharmacy for $4",
+  "options": [
+   {
+    "label": "Pick up the prescription at the pharmacy near your apartment",
+    "cost": 25
+   },
+   {
+    "label": "Ask the clinic to send the generic to the discount pharmacy",
+    "cost": 4
+   }
+  ],
+  "situations_in_cluster": 1,
+  "draws_in_cluster": 3,
+  "scenario": "You've been fighting a bad infection for days and just want to start your medicine tonight so you can finally get some relief. The pharmacy near your apartment can have your prescription ready to pick up for $25, but the clinic could instead send the generic to the discount pharmacy for $4, which means a longer trip and a wait before you can start taking it. What do you do?"
+ },
+ {
+  "stimulus": "s018",
+  "draw_id": "draw0052",
+  "text": "Get a professional haircut and color for $85 or trim it yourself at home for $10",
+  "options": [
+   {
+    "label": "Get a professional haircut and color",
+    "cost": 85
+   },
+   {
+    "label": "Trim it yourself at home",
+    "cost": 10
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 49,
+  "scenario": "You have a job interview next week, and your hair has grown out and looks scruffy. A professional haircut and color would make you feel polished and confident, but it costs $85. You could trim it yourself at home for $10, though you're not sure how even the result would look. What do you do?"
+ },
+ {
+  "stimulus": "s019",
+  "draw_id": "draw1502",
+  "text": "Buy the new pull-down faucet for $420 or buy a repair kit and fix the drip yourself for $12",
+  "options": [
+   {
+    "label": "Buy the new pull-down faucet",
+    "cost": 420
+   },
+   {
+    "label": "Buy a repair kit and fix the drip yourself",
+    "cost": 12
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 87,
+  "scenario": "The kitchen faucet has been dripping for weeks, and the sound keeps you up at night and bugs you every time you cook. You've been eyeing a new pull-down faucet for $420 that would fix the drip and make washing dishes and filling big pots much easier. You could also buy a repair kit for $12 and try to fix the drip yourself, though you're not sure how long the repair will last. What do you do?"
+ },
+ {
+  "stimulus": "s020",
+  "draw_id": "draw3026",
+  "text": "Buy the name-brand pressure cooker and extra accessories for $180 or buy the basic store-brand model for $60",
+  "options": [
+   {
+    "label": "Buy the name-brand pressure cooker and extra accessories",
+    "cost": 180
+   },
+   {
+    "label": "Buy the basic store-brand model",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 6,
+  "scenario": "You've started cooking more at home, and a pressure cooker would make weeknight meals faster and easier. The name-brand model comes with extra accessories, like a steamer rack and baking inserts, and has a reputation for lasting for years, but it costs $180. The basic store-brand model costs $60 and would handle the everyday cooking you have in mind. What do you do?"
+ },
+ {
+  "stimulus": "s021",
+  "draw_id": "draw0598",
+  "text": "Get the premium work boots from the outdoor outfitter for $140 or buy the cheaper pair from the discount store for $45",
+  "options": [
+   {
+    "label": "Get the premium work boots from the outdoor outfitter",
+    "cost": 140
+   },
+   {
+    "label": "Buy the cheaper pair from the discount store",
+    "cost": 45
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 46,
+  "scenario": "Your job on the loading crew means eight hours a day on your feet, and your old work boots are finally falling apart. The premium boots from the outdoor outfitter cost $140 and have a reputation for lasting for years and keeping your feet comfortable and dry, while the pair from the discount store costs $45 and would meet the safety requirements but may wear out sooner. What do you do?"
+ },
+ {
+  "stimulus": "s022",
+  "draw_id": "draw1353",
+  "text": "Go to the Buddhist temple's weekend retreat for $60 or attend the free meditation session at the local library for $0",
+  "options": [
+   {
+    "label": "Go to the Buddhist temple's weekend retreat",
+    "cost": 60
+   },
+   {
+    "label": "Attend the free meditation session at the local library",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 1,
+  "draws_in_cluster": 3,
+  "scenario": "You've been feeling stretched thin and anxious lately, and you want a real chance to slow down and reset. The Buddhist temple's weekend retreat costs $60 and would give you uninterrupted time away with guided practice, while the free meditation session at the local library costs $0 and is a lighter, shorter way to calm your mind. What do you do?"
+ },
+ {
+  "stimulus": "s023",
+  "draw_id": "draw1122",
+  "text": "Drive and pay for parking for $28 or take the commuter train for $12",
+  "options": [
+   {
+    "label": "Drive and pay for parking",
+    "cost": 28
+   },
+   {
+    "label": "Take the commuter train",
+    "cost": 12
+   }
+  ],
+  "situations_in_cluster": 7,
+  "draws_in_cluster": 9,
+  "scenario": "You have an evening event downtown that you've been looking forward to, and you're already tired after a long day. Driving would let you leave when you want and get home comfortably, but parking near the venue will cost $28. The commuter train costs $12 and is reliable, though it means sticking to the train schedule and a longer trip home. What do you do?"
+ },
+ {
+  "stimulus": "s024",
+  "draw_id": "draw0036",
+  "text": "Go to the downtown bistro brunch with your sister and her friends for $60 or make breakfast at home and invite them over for coffee for $8",
+  "options": [
+   {
+    "label": "Go to the downtown bistro brunch with your sister and her friends",
+    "cost": 60
+   },
+   {
+    "label": "Make breakfast at home and invite them over for coffee",
+    "cost": 8
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 19,
+  "scenario": "Your sister is visiting for the weekend and her friends have invited you all to a brunch at a popular downtown bistro, and you haven't seen her in months and would love a relaxed, special outing together. The bistro will cost you about $60, though, and money has been a little tight lately. You could instead make breakfast at home and invite everyone over for coffee for around $8, which would still be a chance to catch up, though a bit less festive. What do you do?"
+ },
+ {
+  "stimulus": "s025",
+  "draw_id": "draw2747",
+  "text": "Upgrade to the premium tickets for the recital for $120 or buy the standard seats for the recital for $45",
+  "options": [
+   {
+    "label": "Upgrade to the premium tickets for the recital",
+    "cost": 120
+   },
+   {
+    "label": "Buy the standard seats for the recital",
+    "cost": 45
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 4,
+  "scenario": "Your daughter has her first solo performance at the school recital next month, and she has been practicing every evening for weeks. The premium tickets cost $120 and put you in the front rows, where you could see her face and film the whole performance up close. The standard seats cost $45, and while they are farther back, you would still be in the room to watch her play. What do you do?"
+ },
+ {
+  "stimulus": "s026",
+  "draw_id": "draw0518",
+  "text": "Book the downtown hotel room for the night for $220 or drive home after the reception and cover the gas and tolls for $40",
+  "options": [
+   {
+    "label": "Book the downtown hotel room for the night",
+    "cost": 220
+   },
+   {
+    "label": "Drive home after the reception and cover the gas and tolls",
+    "cost": 40
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 9,
+  "scenario": "You're at a cousin's wedding reception downtown, and it's running late. You're exhausted and a long drive home in the dark sounds miserable, but staying means paying $220 for a downtown hotel room for the night. You could instead drive home after the reception and cover the gas and tolls for $40, though you'd be tired on the road. What do you do?"
+ },
+ {
+  "stimulus": "s027",
+  "draw_id": "draw0300",
+  "text": "Buy a new professional tool set for $120 or clean and repair the old tools yourself for $15",
+  "options": [
+   {
+    "label": "Buy a new professional tool set",
+    "cost": 120
+   },
+   {
+    "label": "Clean and repair the old tools yourself",
+    "cost": 15
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 13,
+  "scenario": "You've picked up more weekend jobs lately, and your old tools are worn down, with a few pieces that no longer work as smoothly as they should. A new professional tool set for $120 would make the work faster and more precise, and you'd feel more confident in front of clients. You could also clean and repair the old tools yourself for $15, which would keep them usable for now, though they may not last much longer. What do you do?"
+ },
+ {
+  "stimulus": "s028",
+  "draw_id": "draw1231",
+  "text": "Get a new set of patio furniture for $420 or repair the two chairs you already have for $40",
+  "options": [
+   {
+    "label": "Get a new set of patio furniture",
+    "cost": 420
+   },
+   {
+    "label": "Repair the two chairs you already have",
+    "cost": 40
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 19,
+  "scenario": "You've been hoping to host your family for a backyard dinner this weekend, and your two old patio chairs are wobbly and cracked, with nowhere comfortable for everyone to sit. You can buy a new patio furniture set for $420 so that everyone has a seat and the space feels welcoming, or repair the two chairs you already have for $40 and make do with extra seating from inside. What do you do?"
+ },
+ {
+  "stimulus": "s029",
+  "draw_id": "draw0854",
+  "text": "Take the weekend trip to New York for the show for $420 or stay home and watch the streamed recording for $0",
+  "options": [
+   {
+    "label": "Take the weekend trip to New York for the show",
+    "cost": 420
+   },
+   {
+    "label": "Stay home and watch the streamed recording",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 88,
+  "scenario": "A show you've wanted to see for years is playing in New York, and your close friend who loves it just as much has offered to go with you and share the experience in person. The weekend trip would cost $420 in all. Or you could stay home and watch the streamed recording of the show for $0, which would be comfortable and easy on your budget, though not quite the same. What do you do?"
+ },
+ {
+  "stimulus": "s030",
+  "draw_id": "draw3458",
+  "text": "Go to the dealership for a full-service oil change and tire rotation for $85 or change the oil yourself at home for $30",
+  "options": [
+   {
+    "label": "Go to the dealership for a full-service oil change and tire rotation",
+    "cost": 85
+   },
+   {
+    "label": "Change the oil yourself at home",
+    "cost": 30
+   }
+  ],
+  "situations_in_cluster": 2,
+  "draws_in_cluster": 12,
+  "scenario": "Your car is due for an oil change and tire rotation, and you've had a draining week with barely a free minute to yourself. You can take it to the dealership for a full-service oil change and tire rotation for $85, and they'll handle everything while you wait, or you can change the oil yourself at home for $30, which would take a couple of hours of your time and effort. What do you do?"
+ },
+ {
+  "stimulus": "s031",
+  "draw_id": "draw0310",
+  "text": "Get a fast-casual lunch with coworkers for $18 or pack a lunch from home for $3",
+  "options": [
+   {
+    "label": "Get a fast-casual lunch with coworkers",
+    "cost": 18
+   },
+   {
+    "label": "Pack a lunch from home",
+    "cost": 3
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 23,
+  "scenario": "Your coworkers are heading out to a fast-casual spot for lunch, and they've invited you along. You've been feeling a bit disconnected from the team lately, and a relaxed meal together would be a good chance to bond. You could get lunch with them for $18, or stay at your desk and eat the lunch you packed from home for $3. What do you do?"
+ },
+ {
+  "stimulus": "s032",
+  "draw_id": "draw0038",
+  "text": "Get a new winter coat from the outlet mall for $180 or repair your old coat at the tailor down the street for $25",
+  "options": [
+   {
+    "label": "Get a new winter coat from the outlet mall",
+    "cost": 180
+   },
+   {
+    "label": "Repair your old coat at the tailor down the street",
+    "cost": 25
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 74,
+  "scenario": "The zipper on your old winter coat has started to split, and the lining is wearing thin just as the cold weather sets in. You'd love to pick up a new coat at the outlet mall for $180, since it would be warm and reliable for years and you'd feel good wearing it. Or you could take your old coat to the tailor down the street, who can repair it for $25 and make it wearable again for now. What do you do?"
+ },
+ {
+  "stimulus": "s033",
+  "draw_id": "draw0076",
+  "text": "Buy the premium organic grocery box delivered for $120 or do the weekly shop yourself at the regular supermarket for $75",
+  "options": [
+   {
+    "label": "Buy the premium organic grocery box delivered",
+    "cost": 120
+   },
+   {
+    "label": "Do the weekly shop yourself at the regular supermarket",
+    "cost": 75
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 100,
+  "replaces": "draw0035",
+  "scenario": "You've had a draining week, and the thought of spending your evening in a crowded supermarket is wearing on you. A premium organic grocery box could be delivered to your door for $120, saving you the time and energy. Or you can do the weekly shop yourself at the regular supermarket for $75, which would cost you a couple of hours but keep more money in your budget. What do you do?"
+ },
+ {
+  "stimulus": "s034",
+  "draw_id": "draw0993",
+  "text": "Book the lake cabin weekend for the whole family for $420 or stay home and plan a few local day trips for $60",
+  "options": [
+   {
+    "label": "Book the lake cabin weekend for the whole family",
+    "cost": 420
+   },
+   {
+    "label": "Stay home and plan a few local day trips",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 15,
+  "draws_in_cluster": 109,
+  "scenario": "Your family has had a hectic few months, and everyone is worn out and overdue for time together without phones or schedules. You know the lake cabin weekend for the whole family would give you that, but it would cost $420. You could instead stay home and plan a few local day trips for $60, which would still get you out of the house but means everyone sleeps in their own beds and the weekend feels less like a real getaway. What do you do?"
+ },
+ {
+  "stimulus": "s035",
+  "draw_id": "draw0339",
+  "text": "Take the grandkids to the water park for $60 or go to the library story hour and have a picnic in the park for $4",
+  "options": [
+   {
+    "label": "Take the grandkids to the water park",
+    "cost": 60
+   },
+   {
+    "label": "Go to the library story hour and have a picnic in the park",
+    "cost": 4
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 20,
+  "scenario": "Your grandkids are visiting for the afternoon, and they have been begging to go to the water park, which would make this a day they'll remember. A ticket package for the group would cost $60. Or you could take them to the library story hour and then have a picnic in the park for about $4, which they also enjoy, though it's a quieter outing. What do you do?"
+ },
+ {
+  "stimulus": "s036",
+  "draw_id": "draw0252",
+  "text": "Upgrade to the premium gym membership with a private trainer for $120 or keep your basic gym membership for $45",
+  "options": [
+   {
+    "label": "Upgrade to the premium gym membership with a private trainer",
+    "cost": 120
+   },
+   {
+    "label": "Keep your basic gym membership",
+    "cost": 45
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 24,
+  "scenario": "You've been trying to get back into a regular fitness routine, but you often lose motivation when you work out alone. The premium gym membership includes a private trainer who could keep you accountable and help you stay on track, and it costs $120. Your basic membership costs $45 and still gives you access to all the equipment and classes, though you'd have to stay motivated on your own. What do you do?"
+ },
+ {
+  "stimulus": "s037",
+  "draw_id": "draw1360",
+  "text": "Fly to Charlotte and rent a car for $240 or drive down in your own car for $60",
+  "options": [
+   {
+    "label": "Fly to Charlotte and rent a car",
+    "cost": 240
+   },
+   {
+    "label": "Drive down in your own car",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 30,
+  "scenario": "Your sister is getting married in Charlotte this weekend, and you've been looking forward to it for months. You've also had a draining stretch at work, and the thought of a long drive on top of that leaves you worn out before you start. You can fly to Charlotte and rent a car for $240 and arrive rested, or drive down in your own car for $60 and have the whole trip to unwind with your playlists. What do you do?"
+ },
+ {
+  "stimulus": "s038",
+  "draw_id": "draw2674",
+  "text": "Buy the new textbook at the campus bookstore for $120 or borrow the library copy and hope it's available for $0",
+  "options": [
+   {
+    "label": "Buy the new textbook at the campus bookstore",
+    "cost": 120
+   },
+   {
+    "label": "Borrow the library copy and hope it's available",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 13,
+  "scenario": "Your new course starts this week, and the professor says you'll be reading from the assigned textbook every session and using it for problem sets. Owning your own copy would let you highlight, study at home, and never worry about access, but the campus bookstore price is $120. The library has a copy you could borrow for $0, though it may already be checked out when you need it. What do you do?"
+ },
+ {
+  "stimulus": "s039",
+  "draw_id": "draw0597",
+  "text": "Attend the premium wine tasting and pairing dinner at the vineyard for $180 or meet friends for a regular dinner at the neighborhood bistro for $60",
+  "options": [
+   {
+    "label": "Attend the premium wine tasting and pairing dinner at the vineyard",
+    "cost": 180
+   },
+   {
+    "label": "Meet friends for a regular dinner at the neighborhood bistro",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 12,
+  "scenario": "Your close friends have been trying to get together for weeks, and one of them has just landed a long-awaited promotion. You could all celebrate at the vineyard's premium wine tasting and pairing dinner for $180, a special experience that would make the occasion feel memorable. Or you could meet at the neighborhood bistro for a regular dinner at $60, where you'd still catch up and toast together. What do you do?"
+ },
+ {
+  "stimulus": "s040",
+  "draw_id": "draw1684",
+  "text": "Get a deep-tissue massage with a specialist for $90 or get a basic 30-minute massage for $40",
+  "options": [
+   {
+    "label": "Get a deep-tissue massage with a specialist",
+    "cost": 90
+   },
+   {
+    "label": "Get a basic 30-minute massage",
+    "cost": 40
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 6,
+  "scenario": "Your shoulders and upper back have been aching for weeks from long hours at your desk, and you finally have time to book a massage. A specialist offers a deep-tissue massage for $90 that you think could really work out the knots, while a basic 30-minute massage costs $40 and would still help you relax. What do you do?"
+ },
+ {
+  "stimulus": "s041",
+  "draw_id": "draw1549",
+  "text": "Bring a homemade potato salad and a sheet cake from the bakery for $60 or bring a bag of chips for $10",
+  "options": [
+   {
+    "label": "Bring a homemade potato salad and a sheet cake from the bakery",
+    "cost": 60
+   },
+   {
+    "label": "Bring a bag of chips",
+    "cost": 10
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 6,
+  "scenario": "Your neighbors are hosting a potluck this weekend to welcome a new family to the block, and you'd love to help them feel at home. You could bring a homemade potato salad and a sheet cake from the bakery for $60, which would make a real impression, or just bring a bag of chips for $10, which is what most guests will probably bring. What do you do?"
+ },
+ {
+  "stimulus": "s042",
+  "draw_id": "draw1874",
+  "text": "Buy the name-brand snack variety pack for $26 or buy the store-brand equivalent for $12",
+  "options": [
+   {
+    "label": "Buy the name-brand snack variety pack",
+    "cost": 26
+   },
+   {
+    "label": "Buy the store-brand equivalent",
+    "cost": 12
+   }
+  ],
+  "situations_in_cluster": 7,
+  "draws_in_cluster": 30,
+  "scenario": "You're stocking up on snacks for your kid's class party this weekend, and your child has been excited about the name-brand variety pack they see in all the commercials and want to share with friends. The store-brand equivalent has a similar mix of items and costs less, though your child might be a little disappointed by the unfamiliar packaging. You can buy the name-brand variety pack for $26 or the store-brand equivalent for $12. What do you do?"
+ },
+ {
+  "stimulus": "s043",
+  "draw_id": "draw0129",
+  "text": "Take the phone to the authorized repair shop for $120 or buy a DIY repair kit and fix it yourself for $15",
+  "options": [
+   {
+    "label": "Take the phone to the authorized repair shop",
+    "cost": 120
+   },
+   {
+    "label": "Buy a DIY repair kit and fix it yourself",
+    "cost": 15
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 32,
+  "scenario": "Your phone's screen cracked when it slipped out of your hand, and you rely on it every day for work calls and staying in touch with family. The authorized repair shop can fix it for $120 and you'd have peace of mind that it's done right, but a $15 DIY repair kit could do the job if you're willing to spend an evening carefully following tutorials and risk making things worse. What do you do?"
+ },
+ {
+  "stimulus": "s044",
+  "draw_id": "draw3211",
+  "text": "Buy the premium all-season tires for $420 or buy the budget tires for $260",
+  "options": [
+   {
+    "label": "Buy the premium all-season tires",
+    "cost": 420
+   },
+   {
+    "label": "Buy the budget tires",
+    "cost": 260
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 55,
+  "scenario": "Your car's tires are worn down, and with rainy season coming you worry about slipping on wet roads, especially on your daily commute with the kids in the back seat. The premium all-season tires cost $420 and have better grip and a longer tread life, while the budget tires cost $260 and would still pass inspection and get you through the year. What do you do?"
+ },
+ {
+  "stimulus": "s045",
+  "draw_id": "draw0634",
+  "text": "Go to the hockey game with coworkers for $60 or stay in and watch the game on TV for $0",
+  "options": [
+   {
+    "label": "Go to the hockey game with coworkers",
+    "cost": 60
+   },
+   {
+    "label": "Stay in and watch the game on TV",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 8,
+  "draws_in_cluster": 27,
+  "scenario": "Your coworkers are heading to a hockey game tonight and invite you along. You've been feeling a bit left out at work lately, and going would be a chance to bond with the team, but the tickets and snacks would cost you $60. You could instead stay in and watch the game on TV for $0, which would be relaxing but means missing the time with your coworkers. What do you do?"
+ },
+ {
+  "stimulus": "s046",
+  "draw_id": "draw1481",
+  "text": "Get the premium detailing package for $120 or get a basic exterior wash for $12",
+  "options": [
+   {
+    "label": "Get the premium detailing package",
+    "cost": 120
+   },
+   {
+    "label": "Get a basic exterior wash",
+    "cost": 12
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 8,
+  "scenario": "Your car is covered in dust and pollen, and you have a family visit coming up where you'd like to feel good about picking everyone up. The premium detailing package for $120 would clean the interior and exterior thoroughly and make the car feel almost new, which would lift your mood after a stressful stretch. A basic exterior wash costs only $12 and would at least make the car look presentable from the outside. What do you do?"
+ },
+ {
+  "stimulus": "s047",
+  "draw_id": "draw0065",
+  "text": "Book a weekend trip to see your sister in Denver for $420 or video call your sister for $0",
+  "options": [
+   {
+    "label": "Book a weekend trip to see your sister in Denver",
+    "cost": 420
+   },
+   {
+    "label": "Video call your sister",
+    "cost": 0,
+    "label_original": "Video call your sister and send a gift"
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 97,
+  "scenario": "Your sister in Denver has been going through a rough few months, and you haven't seen her in person in over a year. You could book a trip to visit her for $420, or you could video call her for $0 and catch up that way. What do you do?"
+ },
+ {
+  "stimulus": "s048",
+  "draw_id": "draw3588",
+  "text": "Replace the old window unit air conditioner for $450 or repair the existing unit for $60",
+  "options": [
+   {
+    "label": "Replace the old window unit air conditioner",
+    "cost": 450
+   },
+   {
+    "label": "Repair the existing unit",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 7,
+  "scenario": "Your window unit air conditioner has been rattling and barely cooling your apartment, and the summer heat is making it hard to sleep. A technician says he can repair the existing unit for $60, though it's old and might break down again, or you could replace it with a new, more efficient unit for $450 that would likely keep you cool for years. What do you do?"
+ },
+ {
+  "stimulus": "s049",
+  "draw_id": "draw0382",
+  "text": "Buy the manufacturer's charger for $60 or buy a generic charger online for $12",
+  "options": [
+   {
+    "label": "Buy the manufacturer's charger",
+    "cost": 60
+   },
+   {
+    "label": "Buy a generic charger online",
+    "cost": 12
+   }
+  ],
+  "situations_in_cluster": 2,
+  "draws_in_cluster": 6,
+  "scenario": "Your phone charger just stopped working, and you rely on your phone every day for work calls and staying in touch with family. The manufacturer's charger costs $60 and is designed for your phone, so you know it will charge safely and reliably. You could instead order a generic charger online for $12, though it may take a few days to arrive and you've heard mixed reviews about how well they last. What do you do?"
+ },
+ {
+  "stimulus": "s050",
+  "draw_id": "draw2310",
+  "text": "Hire a plumber to install a new vanity and faucet for $420 or patch the leak and keep the old vanity for $25",
+  "options": [
+   {
+    "label": "Hire a plumber to install a new vanity and faucet",
+    "cost": 420
+   },
+   {
+    "label": "Patch the leak and keep the old vanity",
+    "cost": 25
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 103,
+  "scenario": "The vanity in your bathroom has been slowly leaking, and the cabinet underneath is stained and starting to warp. You've been wanting to replace it for a while, and a plumber could install a new vanity and faucet for $420, so you wouldn't have to worry about it again. Or you could patch the leak yourself and keep the old vanity for $25, which would stop the dripping for now even though the cabinet would still look worn. What do you do?"
+ },
+ {
+  "stimulus": "s051",
+  "draw_id": "draw1097",
+  "text": "Go to the private cardiology clinic for $180 or wait for the county hospital walk-in clinic for $20",
+  "options": [
+   {
+    "label": "Go to the private cardiology clinic",
+    "cost": 180
+   },
+   {
+    "label": "Wait for the county hospital walk-in clinic",
+    "cost": 20
+   }
+  ],
+  "situations_in_cluster": 2,
+  "draws_in_cluster": 2,
+  "scenario": "Your heart has been fluttering on and off for a few days, and it leaves you shaken and anxious about what it could mean. You can go to the private cardiology clinic for $180 and likely be seen quickly, or wait at the county hospital walk-in clinic for $20, where the wait could be long but you would still be examined by a doctor. What do you do?"
+ },
+ {
+  "stimulus": "s052",
+  "draw_id": "draw0046",
+  "text": "Take the cruise ship excursion to the island for $120 or stay aboard the ship and enjoy the pool deck for $0",
+  "options": [
+   {
+    "label": "Take the cruise ship excursion to the island",
+    "cost": 120
+   },
+   {
+    "label": "Stay aboard the ship and enjoy the pool deck",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 14,
+  "scenario": "You're booking your activities ahead of a cruise you'll take later this year, and the ship will stop at a tropical island you've always wanted to see. The guided excursion there costs $120 and would give you a chance to explore the island's beaches and local culture with your travel companions. Or you could stay aboard the ship for free ($0), relax on the quiet pool deck, and enjoy a slow day without the crowds. What do you do?"
+ },
+ {
+  "stimulus": "s053",
+  "draw_id": "draw0796",
+  "text": "Join the family for a sit-down celebration dinner for $60 or eat at home and call to congratulate her for $0",
+  "options": [
+   {
+    "label": "Join the family for a sit-down celebration dinner",
+    "cost": 60
+   },
+   {
+    "label": "Eat at home and call to congratulate her",
+    "cost": 0,
+    "label_original": "Eat at home and send a card and flowers to the recital"
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 10,
+  "scenario": "Your sister just got the promotion she has worked toward for years, and your family is getting together for a sit-down celebration dinner. You would love to be there in person to share the moment with her, but the dinner would cost you $60. You could instead eat at home and call to congratulate her for $0. What do you do?"
+ },
+ {
+  "stimulus": "s054",
+  "draw_id": "draw1745",
+  "text": "Go to the Broadway-style theater show with your sister for $120 or go to the free community center open-mic night for $0",
+  "options": [
+   {
+    "label": "Go to the Broadway-style theater show with your sister",
+    "cost": 120
+   },
+   {
+    "label": "Go to the free community center open-mic night",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 11,
+  "scenario": "Your sister is visiting for the weekend, and you haven't had a night out together in over a year. She's been excited about seeing a Broadway-style theater show with you, and tickets would cost $120 total. Alternatively, the free community center open-mic night ($0) would still let you spend the evening together and enjoy some local talent, though it wouldn't feel as special. What do you do?"
+ },
+ {
+  "stimulus": "s055",
+  "draw_id": "draw0859",
+  "text": "Pay for a same-day mechanic to fix the brakes on your car for $420 or get a quick, cheaper patch-up at a discount shop for $120",
+  "options": [
+   {
+    "label": "Pay for a same-day mechanic to fix the brakes on your car",
+    "cost": 420
+   },
+   {
+    "label": "Get a quick, cheaper patch-up at a discount shop",
+    "cost": 120
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 22,
+  "scenario": "Your car's brakes have started squealing and feel softer than they used to, and you have a long drive ahead of you with passengers you care about. A mechanic can fix them properly today for $420, which would give you real peace of mind. A discount shop can do a quick patch-up for $120, which should hold for now but may not last as long. What do you do?"
+ },
+ {
+  "stimulus": "s056",
+  "draw_id": "draw0073",
+  "text": "Get the padded laptop bag for $60 or keep using your old backpack for $0",
+  "options": [
+   {
+    "label": "Get the padded laptop bag",
+    "cost": 60
+   },
+   {
+    "label": "Keep using your old backpack",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 24,
+  "scenario": "You've started carrying your laptop to work every day, and the thin straps and bare seams of your old backpack leave you worried about a drop or a spill damaging it. A padded laptop bag would protect it and be easier on your shoulders, but it costs $60. Your old backpack still closes and has gotten you by so far, and keeping it would cost you $0. What do you do?"
+ },
+ {
+  "stimulus": "s057",
+  "draw_id": "draw0647",
+  "text": "Get a takeout dinner delivered for $38 or cook the leftover rice and vegetables at home for $3",
+  "options": [
+   {
+    "label": "Get a takeout dinner delivered",
+    "cost": 38
+   },
+   {
+    "label": "Cook the leftover rice and vegetables at home",
+    "cost": 3
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 17,
+  "scenario": "You got home late after a draining day, and you're too tired to think about cooking. A takeout dinner delivered to your door would be a real comfort for $38, but there's leftover rice and vegetables in the fridge that you could heat up for about $3. What do you do?"
+ },
+ {
+  "stimulus": "s058",
+  "draw_id": "draw0962",
+  "text": "Buy the cold brew from the coffee shop on your commute for $6 or make cold brew at home and bring it to work for $1",
+  "options": [
+   {
+    "label": "Buy the cold brew from the coffee shop on your commute",
+    "cost": 6
+   },
+   {
+    "label": "Make cold brew at home and bring it to work",
+    "cost": 1
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 3,
+  "scenario": "You've had a rough week and a cold brew from the coffee shop on your commute has become a small ritual that helps you feel ready for the day. Buying it there costs $6, while making cold brew at home and bringing it to work would cost about $1 but means getting it ready ahead of time. What do you do?"
+ },
+ {
+  "stimulus": "s059",
+  "draw_id": "draw1949",
+  "text": "Upgrade to the premium family dental package for $420 or stay on the standard cleaning plan for $180",
+  "options": [
+   {
+    "label": "Upgrade to the premium family dental package",
+    "cost": 420
+   },
+   {
+    "label": "Stay on the standard cleaning plan",
+    "cost": 180
+   }
+  ],
+  "situations_in_cluster": 7,
+  "draws_in_cluster": 17,
+  "scenario": "Your daughter's orthodontist mentioned she is prone to cavities, and your dental office offers a premium family dental package for $420 that covers extra exams, sealants, and fluoride treatments for everyone, which would give you peace of mind about her teeth. However, money is a bit tight, and the standard cleaning plan for $180 would still cover the regular checkups your family needs. What do you do?"
+ },
+ {
+  "stimulus": "s060",
+  "draw_id": "draw2978",
+  "text": "Pay for same-day delivery of the refill for $25 or take the bus to pick it up in person for $0",
+  "options": [
+   {
+    "label": "Pay for same-day delivery of the refill",
+    "cost": 25
+   },
+   {
+    "label": "Take the bus to pick it up in person",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 5,
+  "scenario": "You've been feeling run down with a nasty cold, and your prescription refill is ready at the pharmacy across town. Same-day delivery would let you stay in bed and rest for $25, but you could also take the bus to pick it up yourself for $0, even though it means a long, tiring trip while you're sick. What do you do?"
+ },
+ {
+  "stimulus": "s061",
+  "draw_id": "draw1008",
+  "text": "Buy the name-brand standing desk for $450 or buy the cheaper adjustable desk for $180",
+  "options": [
+   {
+    "label": "Buy the name-brand standing desk",
+    "cost": 450
+   },
+   {
+    "label": "Buy the cheaper adjustable desk",
+    "cost": 180
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 7,
+  "scenario": "You've been working from home, and your back and neck have started aching by the end of each day. The name-brand standing desk costs $450 and has a sturdy frame and a solid warranty that you expect to last for years, while the cheaper adjustable desk costs $180 and would still let you switch between sitting and standing, though it may wobble a bit and wear out sooner. What do you do?"
+ },
+ {
+  "stimulus": "s062",
+  "draw_id": "draw1253",
+  "text": "Buy the premium leather-bound study Bible for $60 or buy the paperback edition for $8",
+  "options": [
+   {
+    "label": "Buy the premium leather-bound study Bible",
+    "cost": 60
+   },
+   {
+    "label": "Buy the paperback edition",
+    "cost": 8
+   }
+  ],
+  "situations_in_cluster": 2,
+  "draws_in_cluster": 3,
+  "scenario": "You've recently started attending a weekly Bible study group, and you want a copy of your own to read and mark up. The premium leather-bound study Bible costs $60 and would feel special and last for decades, with notes and commentary that could help you follow the discussions. The paperback edition costs $8 and has the same text, but it is plainer and likely to wear out sooner. What do you do?"
+ },
+ {
+  "stimulus": "s063",
+  "draw_id": "draw0840",
+  "text": "Book the nonstop flight for $340 or book the connecting flight with a layover for $185",
+  "options": [
+   {
+    "label": "Book the nonstop flight",
+    "cost": 340
+   },
+   {
+    "label": "Book the connecting flight with a layover",
+    "cost": 185
+   }
+  ],
+  "situations_in_cluster": 2,
+  "draws_in_cluster": 5,
+  "scenario": "You're flying out to see your sister, who just had her first baby, and you want as much time with her as possible. The nonstop flight costs $340 and gets you there in the early afternoon, so you'd have a full evening with the family. The connecting flight with a layover costs $185, but you'd arrive late and tired, and you'd lose a few hours of your visit. What do you do?"
+ },
+ {
+  "stimulus": "s064",
+  "draw_id": "draw0055",
+  "text": "Buy the premium 3-year extended warranty and on-site tech support plan for $240 or decline the extension and rely on the standard 1-year manufacturer warranty for $0",
+  "options": [
+   {
+    "label": "Buy the premium 3-year extended warranty and on-site tech support plan",
+    "cost": 240
+   },
+   {
+    "label": "Decline the extension and rely on the standard 1-year manufacturer warranty",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 2,
+  "draws_in_cluster": 2,
+  "scenario": "You just bought a new laptop that you rely on every day for work, and the store offers a premium 3-year extended warranty with on-site tech support for $240. You know a breakdown could leave you without your main tool and anxious about getting it fixed, and the on-site support would spare you the hassle of shipping it away. However, the standard 1-year manufacturer warranty is included for $0, and you could put that $240 toward other needs and deal with repairs if they come up. What do you do?"
+ },
+ {
+  "stimulus": "s065",
+  "draw_id": "draw1032",
+  "text": "Go to the early-bird dinner with your church group for $28 or eat the leftovers at home for $0",
+  "options": [
+   {
+    "label": "Go to the early-bird dinner with your church group",
+    "cost": 28
+   },
+   {
+    "label": "Eat the leftovers at home",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 33,
+  "scenario": "Your church group is meeting for the early-bird dinner tonight, and you've been looking forward to seeing everyone, since it's been a lonely few weeks and these people always lift your spirits. The dinner would cost $28. You also have leftovers in the fridge that would make a perfectly good meal at home for $0. What do you do?"
+ },
+ {
+  "stimulus": "s066",
+  "draw_id": "draw2320",
+  "text": "Buy the premium painting kit at the hardware store for $60 or use the old tools already in the garage for $0",
+  "options": [
+   {
+    "label": "Buy the premium painting kit at the hardware store",
+    "cost": 60
+   },
+   {
+    "label": "Use the old tools already in the garage",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 3,
+  "scenario": "You're finally repainting the spare room before your sister comes to stay, and you want it to look nice for her. The hardware store's premium painting kit costs $60 and would make the job smoother and the finish cleaner. The old tools already in the garage cost $0 and would probably get the job done, though the brushes are stiff and the result may be a bit streaky. What do you do?"
+ },
+ {
+  "stimulus": "s067",
+  "draw_id": "draw1083",
+  "text": "Call a plumber to come out and repair the disposal for $180 or try the do-it-yourself reset and unclog fix you found online for $0",
+  "options": [
+   {
+    "label": "Call a plumber to come out and repair the disposal",
+    "cost": 180
+   },
+   {
+    "label": "Try the do-it-yourself reset and unclog fix you found online",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 4,
+  "scenario": "Your kitchen garbage disposal has jammed and started humming whenever you flip the switch, and you have guests coming for dinner soon and don't want to deal with a sink full of standing water. You could call a plumber to come out and repair it for $180, which would get it fixed properly and quickly. Or you could try the do-it-yourself reset and unclog fix you found online for $0, though you've never worked on a disposal and it might not solve the problem. What do you do?"
+ },
+ {
+  "stimulus": "s068",
+  "draw_id": "draw2377",
+  "text": "Upgrade to the premium monitor for $450 or keep your current monitor for $0",
+  "options": [
+   {
+    "label": "Upgrade to the premium monitor",
+    "cost": 450
+   },
+   {
+    "label": "Keep your current monitor",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 12,
+  "scenario": "You work from home most days, and after long hours at your desk your eyes often feel strained and your neck aches. A premium monitor with a sharper display and an adjustable stand would likely make your workdays more comfortable, but it costs $450. Your current monitor still works fine, and keeping it would cost you $0. What do you do?"
+ },
+ {
+  "stimulus": "s069",
+  "draw_id": "draw1331",
+  "text": "Shop at the department store for new work clothes for $180 or shop at the discount outlet for work clothes for $60",
+  "options": [
+   {
+    "label": "Shop at the department store for new work clothes",
+    "cost": 180
+   },
+   {
+    "label": "Shop at the discount outlet for work clothes",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 7,
+  "draws_in_cluster": 33,
+  "scenario": "You've just started a new job where first impressions matter, and you want to feel confident and polished in front of your new coworkers. You can shop at the department store for new work clothes for $180, where the quality is better and the clothes will likely last longer, or you can shop at the discount outlet for work clothes for $60 and save money for other expenses. What do you do?"
+ },
+ {
+  "stimulus": "s070",
+  "draw_id": "draw1367",
+  "text": "Take an Uber to the grocery store for $28 or walk to the grocery store with your reusable bags for $0",
+  "options": [
+   {
+    "label": "Take an Uber to the grocery store",
+    "cost": 28
+   },
+   {
+    "label": "Walk to the grocery store with your reusable bags",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 17,
+  "scenario": "You need to restock your kitchen, but you've had a long, draining day and your legs are sore. You can take an Uber to the grocery store for $28, which would get you there and back with minimal effort, or walk there with your reusable bags for $0, which will take longer and leave you carrying everything home. What do you do?"
+ },
+ {
+  "stimulus": "s071",
+  "draw_id": "draw0923",
+  "text": "Book a weekend trip to Sedona for $420 or drive up for a day hike from Phoenix for $60",
+  "options": [
+   {
+    "label": "Book a weekend trip to Sedona",
+    "cost": 420
+   },
+   {
+    "label": "Drive up for a day hike from Phoenix",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 13,
+  "scenario": "You've been under a lot of stress lately and could really use a proper break to recharge and spend time in the red rock country you've always wanted to explore. You can book a weekend trip to Sedona for $420, which would give you two full days away and time to unwind. Or you can drive up from Phoenix for a day hike for $60, which gets you out in the scenery but means you're back in your own bed that night. What do you do?"
+ },
+ {
+  "stimulus": "s072",
+  "draw_id": "draw0434",
+  "text": "Buy a new pair of running shoes for $120 or repair your old pair at the cobbler for $25",
+  "options": [
+   {
+    "label": "Buy a new pair of running shoes",
+    "cost": 120
+   },
+   {
+    "label": "Repair your old pair at the cobbler",
+    "cost": 25
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 55,
+  "scenario": "You've been training for a 10K and your running shoes are worn down, with the cushioning flattened and your knees starting to ache after longer runs. You can buy a new pair of running shoes for $120 that would give you fresh support, or take your old pair to the cobbler to be repaired for $25, which would extend their life a bit longer. What do you do?"
+ },
+ {
+  "stimulus": "s073",
+  "draw_id": "draw2697",
+  "text": "Go to the trampoline park party package for $60 or host a backyard party at home for $12",
+  "options": [
+   {
+    "label": "Go to the trampoline park party package",
+    "cost": 60
+   },
+   {
+    "label": "Host a backyard party at home",
+    "cost": 12
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 13,
+  "scenario": "Your daughter's birthday is coming up, and she has her heart set on a party at the trampoline park, where all her friends have been celebrating lately. The party package would cost $60 and take care of everything, so you could relax and enjoy the day with her. You could also host a backyard party at home for about $12 with simple games and snacks, though it would mean more work for you and she might feel it's not as special. What do you do?"
+ },
+ {
+  "stimulus": "s074",
+  "draw_id": "draw1172",
+  "text": "Drive to the school play and treat the grandkids to ice cream afterward for $60 or drive to the school play and head straight home for $0",
+  "options": [
+   {
+    "label": "Drive to the school play and treat the grandkids to ice cream afterward",
+    "cost": 60
+   },
+   {
+    "label": "Drive to the school play and head straight home",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 26,
+  "scenario": "Your grandkids have been rehearsing for weeks, and tonight is their school play. You're planning to drive there either way, but you know how much it would mean to them to celebrate afterward with ice cream, which would cost $60 for the whole group. Money has been tight lately, and you could simply drive them home for $0 and still enjoy the evening together. What do you do?"
+ },
+ {
+  "stimulus": "s075",
+  "draw_id": "draw0471",
+  "text": "Buy the name-brand prescription refill from the pharmacy counter for $48 or get the generic version from the discount chain for $12",
+  "options": [
+   {
+    "label": "Buy the name-brand prescription refill from the pharmacy counter",
+    "cost": 48
+   },
+   {
+    "label": "Get the generic version from the discount chain",
+    "cost": 12
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 18,
+  "scenario": "You've taken the same name-brand prescription for months, and it works well for you. You're at the pharmacy counter, and the pharmacist can refill it right now for $48, with no extra stop and no change to what you're used to. Or you could drive to the discount chain across town and get the generic version for $12, though you'd have to trust that your body will respond the same way. What do you do?"
+ },
+ {
+  "stimulus": "s076",
+  "draw_id": "draw0280",
+  "text": "Upgrade to the premium tool kit for $120 or keep using your current tools for $0",
+  "options": [
+   {
+    "label": "Upgrade to the premium tool kit",
+    "cost": 120
+   },
+   {
+    "label": "Keep using your current tools",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 3,
+  "replaces": "draw0423",
+  "scenario": "You've started taking on small home repair projects, like fixing a leaky faucet and hanging shelves for your neighbors, and your current tools are worn and often slip or strip screws, which makes each job slower and more frustrating. You can upgrade to the premium tool kit for $120, which would make the work easier and safer, or keep using your current tools for $0, which still get the job done with a bit more effort. What do you do?"
+ },
+ {
+  "stimulus": "s077",
+  "draw_id": "draw1657",
+  "text": "Go to the pottery studio's weekend workshop for $120 or do a free online tutorial at home for $0",
+  "options": [
+   {
+    "label": "Go to the pottery studio's weekend workshop",
+    "cost": 120
+   },
+   {
+    "label": "Do a free online tutorial at home",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 9,
+  "scenario": "You've been curious about pottery for months, and you're hoping to find a creative outlet that helps you unwind. The pottery studio is offering a weekend workshop for $120, where an instructor would guide you hands-on and you'd meet others who share the interest. You could also follow a free online tutorial at home for $0, though you'd be working on your own with no feedback and without a wheel or kiln. What do you do?"
+ },
+ {
+  "stimulus": "s078",
+  "draw_id": "draw0591",
+  "text": "Go to the garden center for $60 or buy the seedlings at the discount hardware store for $18",
+  "options": [
+   {
+    "label": "Go to the garden center",
+    "cost": 60
+   },
+   {
+    "label": "Buy the seedlings at the discount hardware store",
+    "cost": 18
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 3,
+  "replaces": "draw0847",
+  "scenario": "You want to get fall plantings in the ground before the first frost, and the garden center's staff have always helped you pick healthy plants that survive the cold. You can go to the garden center and spend $60 on seedlings with expert advice and a good survival guarantee, or buy similar seedlings at the discount hardware store for $18, though they may be less hardy and you'll be on your own choosing them. What do you do?"
+ },
+ {
+  "stimulus": "s079",
+  "draw_id": "draw2053",
+  "text": "Buy the new area rug at the sale for $120 or keep the worn rug for now for $0",
+  "options": [
+   {
+    "label": "Buy the new area rug at the sale",
+    "cost": 120
+   },
+   {
+    "label": "Keep the worn rug for now",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 5,
+  "scenario": "The area rug in your living room has frayed edges and a stain that never fully came out, and you've been a little embarrassed when friends come over. A new rug you really like is on sale for $120, and it would make the room feel more comfortable and put-together. You could also keep the worn rug for now at no cost, since it still does the job and you could use that money elsewhere. What do you do?"
+ },
+ {
+  "stimulus": "s080",
+  "draw_id": "draw1724",
+  "text": "Get a catered lunch for the office team for $180 or bring in bagels and coffee for $40",
+  "options": [
+   {
+    "label": "Get a catered lunch for the office team",
+    "cost": 180
+   },
+   {
+    "label": "Bring in bagels and coffee",
+    "cost": 40
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 5,
+  "scenario": "Your team just wrapped up a stressful quarter, and you want to thank everyone for the extra hours they put in. You could order a catered lunch for the office team for $180, which would feel like a real celebration, or bring in bagels and coffee for $40, which is a friendly gesture that still shows your appreciation. What do you do?"
+ },
+ {
+  "stimulus": "s081",
+  "draw_id": "draw0727",
+  "text": "Upgrade to the premium tickets behind the dugout for $180 or sit in the regular upper deck for $45",
+  "options": [
+   {
+    "label": "Upgrade to the premium tickets behind the dugout",
+    "cost": 180
+   },
+   {
+    "label": "Sit in the regular upper deck",
+    "cost": 45
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 9,
+  "scenario": "Your dad is visiting for the weekend, and you're taking him to a baseball game, which he hasn't seen in person since your childhood trips together. You could upgrade to the premium tickets behind the dugout for $180, where he'd get a close-up view of the players, or sit in the regular upper deck for $45, which still gives you a good view of the whole field and plenty of time together. What do you do?"
+ },
+ {
+  "stimulus": "s082",
+  "draw_id": "draw1397",
+  "text": "Go to the party with your roommates for $25 or stay in and study for the exam for $0",
+  "options": [
+   {
+    "label": "Go to the party with your roommates",
+    "cost": 25
+   },
+   {
+    "label": "Stay in and study for the exam",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 14,
+  "scenario": "Your roommates are heading to a party tonight, and they've been encouraging you to come since you've barely seen them in weeks. You've been stressed and could use a night out with people you like, but the cover and drinks will cost you about $25. You also have an exam coming up, and staying in to study would cost you nothing and help you feel more prepared. What do you do?"
+ },
+ {
+  "stimulus": "s083",
+  "draw_id": "draw1559",
+  "text": "Take an Uber to the career fair for $28 or ride the bus to the career fair for $3",
+  "options": [
+   {
+    "label": "Take an Uber to the career fair",
+    "cost": 28
+   },
+   {
+    "label": "Ride the bus to the career fair",
+    "cost": 3
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 127,
+  "scenario": "You have a career fair this morning, and you've been hoping to talk with a few employers you're really interested in. You're nervous and want to arrive calm and prepared, and an Uber for $28 would get you there quickly and let you review your notes on the way. The bus costs only $3 and would still get you there on time, but it's slower, crowded, and you'd likely arrive a bit rushed. What do you do?"
+ },
+ {
+  "stimulus": "s084",
+  "draw_id": "draw1466",
+  "text": "Buy the name-brand chainsaw and tool kit for $420 or buy the store-brand starter set for $160",
+  "options": [
+   {
+    "label": "Buy the name-brand chainsaw and tool kit",
+    "cost": 420
+   },
+   {
+    "label": "Buy the store-brand starter set",
+    "cost": 160
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 5,
+  "scenario": "A storm just brought down several large branches in your yard, and you want to clear them yourself and start cutting your own firewood. The name-brand chainsaw and tool kit costs $420, and reviews say it is durable, safer to handle, and likely to last for many years. The store-brand starter set costs $160 and should handle occasional light jobs, though it may wear out sooner. What do you do?"
+ },
+ {
+  "stimulus": "s085",
+  "draw_id": "draw1985",
+  "text": "Get the new video game now for $60 or wait for the sale for $0",
+  "options": [
+   {
+    "label": "Get the new video game now",
+    "cost": 60
+   },
+   {
+    "label": "Wait for the sale",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 1,
+  "draws_in_cluster": 1,
+  "scenario": "A new video game you've been looking forward to for months just came out, and your friends are all starting to play it together online this week. You could buy it now for $60 and join them from the start, or wait for the sale, which would cost $0 extra now but means you'd likely miss the first wave of group play and risk spoilers in the meantime. What do you do?"
+ },
+ {
+  "stimulus": "s086",
+  "draw_id": "draw1620",
+  "text": "Book the weekend trip to Vermont with a flight and hotel for $420 or drive up for the day and come back the same night for $60",
+  "options": [
+   {
+    "label": "Book the weekend trip to Vermont with a flight and hotel",
+    "cost": 420
+   },
+   {
+    "label": "Drive up for the day and come back the same night",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 6,
+  "draws_in_cluster": 44,
+  "scenario": "Your college roommate is celebrating a milestone birthday in Vermont this weekend, and you haven't seen her in over a year. You would love to stay the whole weekend and catch up without watching the clock, but that means booking a flight and hotel for $420. You could instead drive up for the day and come back the same night for about $60, though you'd have less time together and a long drive home. What do you do?"
+ },
+ {
+  "stimulus": "s087",
+  "draw_id": "draw1200",
+  "text": "Drive out to the tournament and stay two nights in a hotel for $180 or watch the games on the livestream from home for $0",
+  "options": [
+   {
+    "label": "Drive out to the tournament and stay two nights in a hotel",
+    "cost": 180
+   },
+   {
+    "label": "Watch the games on the livestream from home",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 23,
+  "scenario": "Your best friend is playing in a regional tournament, and you know it would mean a lot to have you cheering from the stands. Going means driving out and staying two nights in a hotel for $180, while you could instead watch all the games on the livestream from home for $0 and send encouragement by text. What do you do?"
+ },
+ {
+  "stimulus": "s088",
+  "draw_id": "draw0045",
+  "text": "Hire a professional landscaper to clear and mulch the beds for $180 or clear and mulch the beds yourself over the weekend for $0",
+  "options": [
+   {
+    "label": "Hire a professional landscaper to clear and mulch the beds",
+    "cost": 180
+   },
+   {
+    "label": "Clear and mulch the beds yourself over the weekend",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 2,
+  "draws_in_cluster": 6,
+  "scenario": "The flower beds in your yard are overgrown with weeds and covered in dead leaves, and you've been wanting them cleaned up before the cold sets in. You've had a draining stretch lately and would love to spend your weekend resting, and a professional landscaper could clear and mulch the beds for $180. Or you could do the work yourself over the weekend for $0, though it would take hours of tiring physical labor. What do you do?"
+ },
+ {
+  "stimulus": "s089",
+  "draw_id": "draw3586",
+  "text": "Let the kids do all the booths and buy treats for $60 or pay only the basic admission and bring snacks from home for $5",
+  "options": [
+   {
+    "label": "Let the kids do all the booths and buy treats",
+    "cost": 60
+   },
+   {
+    "label": "Pay only the basic admission and bring snacks from home",
+    "cost": 5
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 4,
+  "scenario": "You're taking your kids to the school carnival, and they've been talking about it for weeks. They would love to play every booth and pick out their own treats, which would cost $60 in all, and you know how much a full afternoon of fun would mean to them. Or you could pay only the $5 basic admission and bring snacks from home, so they still get to enjoy the carnival while you keep the budget in check. What do you do?"
+ },
+ {
+  "stimulus": "s090",
+  "draw_id": "draw0966",
+  "text": "Book the group golf outing at the private club for $180 or play at the public municipal course for $60",
+  "options": [
+   {
+    "label": "Book the group golf outing at the private club",
+    "cost": 180
+   },
+   {
+    "label": "Play at the public municipal course",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 2,
+  "draws_in_cluster": 3,
+  "scenario": "Your coworkers have been planning a group golf outing to celebrate the end of a long, stressful project, and you've been looking forward to some time together outside the office. The organizer can book the private club for $180, which would make it feel like a special occasion and help you bond with your team and a few senior colleagues. You could instead suggest the public municipal course for $60, which would still get everyone outside and playing together, though it would be a more casual outing. What do you do?"
+ },
+ {
+  "stimulus": "s091",
+  "draw_id": "draw1184",
+  "text": "Rent the premium paddleboard with canopy for $60 or take the free community center kayak for $0",
+  "options": [
+   {
+    "label": "Rent the premium paddleboard with canopy",
+    "cost": 60
+   },
+   {
+    "label": "Take the free community center kayak",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 1,
+  "draws_in_cluster": 1,
+  "scenario": "You've had a stressful month and finally have a free afternoon to spend on the lake. You burn easily and have been struggling with headaches in the sun, so the premium paddleboard with a canopy for $60 would let you relax in the shade. The community center kayak is free ($0) and perfectly fun, but it has no shade and you'd be exposed to the sun the whole time. What do you do?"
+ },
+ {
+  "stimulus": "s092",
+  "draw_id": "draw0092",
+  "text": "Join the church choir's weekend retreat for $180 or attend the Sunday services only for $0",
+  "options": [
+   {
+    "label": "Join the church choir's weekend retreat",
+    "cost": 180
+   },
+   {
+    "label": "Attend the Sunday services only",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 36,
+  "scenario": "You've sung in your church choir for years, and the members are invited to a weekend retreat that costs $180. You've been feeling disconnected lately and think the time together would help you reconnect with people you care about. You could skip the retreat and attend the regular services for $0, which would keep your budget intact and still let you see everyone. What do you do?"
+ },
+ {
+  "stimulus": "s093",
+  "draw_id": "draw1707",
+  "text": "Go to the Phillies game with your brother-in-law's group for $85 or watch the game at home with your family for $0",
+  "options": [
+   {
+    "label": "Go to the Phillies game with your brother-in-law's group",
+    "cost": 85
+   },
+   {
+    "label": "Watch the game at home with your family",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 5,
+  "draws_in_cluster": 21,
+  "scenario": "Your brother-in-law has invited you to join his group at the Phillies game, and you've been wanting to spend more time with him and feel like part of the family circle. Tickets and food would run about $85. You could also stay home and watch the game on TV with your family for $0, which would be a relaxed evening together. What do you do?"
+ },
+ {
+  "stimulus": "s094",
+  "draw_id": "draw0446",
+  "text": "Buy the smart-bulb kit for the hallway and living room for $30 or keep the existing bulbs and replace them only when they burn out for $0",
+  "options": [
+   {
+    "label": "Buy the smart-bulb kit for the hallway and living room",
+    "cost": 30
+   },
+   {
+    "label": "Keep the existing bulbs and replace them only when they burn out",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 1,
+  "draws_in_cluster": 1,
+  "scenario": "You've been coming home to a dim hallway and living room lately, and fumbling for light switches after a long day is wearing on you. A smart-bulb kit would let you set schedules and dim the lights from your phone, making the place feel more welcoming, and it costs $30. The bulbs you have still work fine, and you could keep them and replace them only when they burn out for $0. What do you do?"
+ },
+ {
+  "stimulus": "s095",
+  "draw_id": "draw0595",
+  "text": "Buy the name-brand wireless earbuds for $180 or buy the budget wireless earbuds for $40",
+  "options": [
+   {
+    "label": "Buy the name-brand wireless earbuds",
+    "cost": 180
+   },
+   {
+    "label": "Buy the budget wireless earbuds",
+    "cost": 40
+   }
+  ],
+  "situations_in_cluster": 3,
+  "draws_in_cluster": 7,
+  "scenario": "Your old earbuds just died, and you rely on them every day for your commute and for calls with your family, which are hard to hear on a noisy train. The name-brand wireless earbuds cost $180 and have strong noise cancellation and a reputation for lasting for years, while the budget wireless earbuds cost $40 and would handle music and basic calls well enough, though reviews say the sound and battery life are only average. What do you do?"
+ },
+ {
+  "stimulus": "s096",
+  "draw_id": "draw2240",
+  "text": "Get the freelance design software subscription for $240 or use the free open-source alternative for $0",
+  "options": [
+   {
+    "label": "Get the freelance design software subscription",
+    "cost": 240
+   },
+   {
+    "label": "Use the free open-source alternative",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 1,
+  "draws_in_cluster": 1,
+  "scenario": "You've started taking on freelance design projects, and a few clients have sent files in the format used by the paid design software. The subscription would cost $240 and would make your workflow smoother and your files compatible with theirs. However, you could use a free open-source alternative for $0, which handles most of the same tasks but has a steeper learning curve and occasional formatting hiccups. What do you do?"
+ },
+ {
+  "stimulus": "s097",
+  "draw_id": "draw0691",
+  "text": "Book the Napa wine-tasting weekend for $420 or hike local trails near home for $0",
+  "options": [
+   {
+    "label": "Book the Napa wine-tasting weekend",
+    "cost": 420
+   },
+   {
+    "label": "Hike local trails near home",
+    "cost": 0
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 15,
+  "scenario": "You and your partner have both been worn out by a long stretch of work, and your anniversary is coming up. You'd love to book the Napa wine-tasting weekend for $420, a chance to really unwind together and make the occasion feel special. Or you could hike the local trails near home for $0, which would still get you outdoors and some quality time together, just without the getaway. What do you do?"
+ },
+ {
+  "stimulus": "s098",
+  "draw_id": "draw0509",
+  "text": "Buy the brand-name car seat with the newest features for $220 or buy a certified used car seat from a local family group for $60",
+  "options": [
+   {
+    "label": "Buy the brand-name car seat with the newest features",
+    "cost": 220
+   },
+   {
+    "label": "Buy a certified used car seat from a local family group",
+    "cost": 60
+   }
+  ],
+  "situations_in_cluster": 1,
+  "draws_in_cluster": 1,
+  "scenario": "Your baby is about to outgrow the infant carrier, and you need a car seat before the next family road trip. The brand-name model has the newest features and top safety ratings, and you would feel more at ease knowing it is brand new, but it costs $220. A local family group is selling a certified used car seat for $60 that meets safety standards, though it has fewer features. What do you do?"
+ },
+ {
+  "stimulus": "s099",
+  "draw_id": "draw2892",
+  "text": "Go to the sit-down Mexican restaurant with your coworkers for $48 or make tacos at home for $12",
+  "options": [
+   {
+    "label": "Go to the sit-down Mexican restaurant with your coworkers",
+    "cost": 48
+   },
+   {
+    "label": "Make tacos at home",
+    "cost": 12
+   }
+  ],
+  "situations_in_cluster": 4,
+  "draws_in_cluster": 11,
+  "scenario": "Your coworkers are heading to a sit-down Mexican restaurant after work, and they've invited you along. You've been feeling a bit left out of the group lately, and this would be a good chance to bond, but you expect to spend $48 on dinner. You could skip it and make tacos at home for $12, which would be relaxing and easy on your budget. What do you do?"
+ },
+ {
+  "stimulus": "s100",
+  "draw_id": "draw0275",
+  "text": "Get a manicure and pedicure with your friend for $60 or do your own nails at home for $5",
+  "options": [
+   {
+    "label": "Get a manicure and pedicure with your friend",
+    "cost": 60
+   },
+   {
+    "label": "Do your own nails at home",
+    "cost": 5
+   }
+  ],
+  "situations_in_cluster": 1,
+  "draws_in_cluster": 8,
+  "scenario": "Your close friend has had a rough few weeks and suggests a manicure and pedicure together so the two of you can finally catch up in person. You'd love the time with her and could use some pampering yourself, but the salon would cost $60. You could also skip it and do your own nails at home for $5, though you'd likely be doing them alone. What do you do?"
+ }
+]

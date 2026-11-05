@@ -1,0 +1,98 @@
+[
+ {
+  "id": "rejection_implies_b",
+  "group": "Decision structure",
+  "name": "Rejection implies B",
+  "question": "If you read only that the other person did not choose Option A, how sure would you be that they ended up with Option B?",
+  "anchor0": "not sure at all",
+  "anchor10": "completely sure"
+ },
+ {
+  "id": "price_gap",
+  "group": "Decision structure",
+  "name": "Price gap",
+  "question": "How different are the two options in price or cost?",
+  "anchor0": "same price",
+  "anchor10": "very different prices"
+ },
+ {
+  "id": "prior_preference_for_b",
+  "group": "Prior preference",
+  "name": "Prior preference for B",
+  "question": "Before hearing about the other person, how much would a typical person prefer Option B over Option A?",
+  "anchor0": "strongly prefer A",
+  "anchor10": "strongly prefer B"
+ },
+ {
+  "id": "a_is_the_default",
+  "group": "Prior preference",
+  "name": "A is the default",
+  "question": "How much is Option A the default, usual or expected option in this situation?",
+  "anchor0": "not at all the default",
+  "anchor10": "clearly the default"
+ },
+ {
+  "id": "taste_based",
+  "group": "Taste and quality",
+  "name": "Taste-based",
+  "question": "How much does the right choice depend on personal taste rather than on objective quality?",
+  "anchor0": "purely objective quality",
+  "anchor10": "purely personal taste"
+ },
+ {
+  "id": "quality_uncertainty",
+  "group": "Taste and quality",
+  "name": "Quality uncertainty",
+  "question": "How hard is it to judge the quality of the options from what you know before using them?",
+  "anchor0": "quality is obvious",
+  "anchor10": "quality is very hard to judge"
+ },
+ {
+  "id": "expertise_needed",
+  "group": "Taste and quality",
+  "name": "Expertise needed",
+  "question": "How much expertise is needed to choose well between these options?",
+  "anchor0": "none",
+  "anchor10": "a great deal"
+ },
+ {
+  "id": "flaw_inference",
+  "group": "Inference from the decision",
+  "name": "Flaw inference",
+  "question": "If you learned that someone passed over Option A, how strongly would you conclude that Option A has a problem?",
+  "anchor0": "not at all",
+  "anchor10": "very strongly"
+ },
+ {
+  "id": "idiosyncratic_choice",
+  "group": "Inference from the decision",
+  "name": "Idiosyncratic choice",
+  "question": "How much could the other person's decision reflect their own personal circumstances rather than the quality of the options?",
+  "anchor0": "only the quality of the options",
+  "anchor10": "only their own circumstances"
+ },
+ {
+  "id": "source_trustworthiness",
+  "group": "Source",
+  "name": "Source trustworthiness",
+  "question": "How much can you trust the person who tells you (or shows you) the decision?",
+  "anchor0": "not at all",
+  "anchor10": "completely"
+ },
+ {
+  "id": "irreversibility",
+  "group": "Stakes",
+  "name": "Irreversibility",
+  "question": "How hard would it be to undo or change the choice later?",
+  "anchor0": "easy to undo",
+  "anchor10": "impossible to undo"
+ },
+ {
+  "id": "hedonic",
+  "group": "Domain",
+  "name": "Hedonic",
+  "question": "How much is this decision about pleasure or enjoyment rather than practical use?",
+  "anchor0": "purely practical",
+  "anchor10": "purely about pleasure"
+ }
+]

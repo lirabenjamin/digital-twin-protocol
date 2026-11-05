@@ -1,0 +1,13 @@
+Below is a short scenario about a choice between two options. Sort its sentences into four groups so that the scenario can be shown with the two options in side-by-side boxes. Copy every sentence exactly as written: do not change, add, drop, merge, or split any words.
+
+Option A: {option_a}
+Option B: {option_b}
+Scenario: {scenario}
+
+Groups:
+- "setup": the sentences before the options are described (the situation and why you are choosing). Include a sentence that names both options only if it introduces the choice.
+- "a": the sentences that describe only Option A.
+- "b": the sentences that describe only Option B.
+- "after": the remaining sentences that apply to both options or to the decision as a whole, in their original order, including the last sentence "Please think about which of the two options you would choose."
+
+Reply with JSON only: {"setup": ["..."], "a": ["..."], "b": ["..."], "after": ["..."]}

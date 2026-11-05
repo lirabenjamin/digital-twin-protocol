@@ -1,0 +1,174 @@
+# Worked example: the choice-vs-rejection framing effect (Nan, Park & Yang 2023, JCR,
+# "Rejections are more contagious than choices"). People conform more to another person's decision when
+# they learn what that person rejected than when they learn what that person chose.
+#
+# To study another effect, copy this file and change every block below. The scripts read nothing else
+# about the effect.
+
+name: choice_rejection
+output_dir: output/choice_rejection   # every script writes here (gitignored)
+budget_usd: 40                        # Claude calls stop when spend.jsonl reaches this
+
+effect:
+  description: |
+    In each stimulus, a person faces a choice between exactly two options, A and B. Before deciding, the person learns that someone else faced the same choice and ended up with B. That decision is described in one of two matched ways:
+    - Choice frame: the other person chose, took, kept or accepted B.
+    - Rejection frame: the other person did not choose, put back, returned or rejected A.
+
+# Two conditions. Each stimulus carries one text per condition (text_field). The effect of a stimulus is
+# the mean DV in the second condition minus the mean DV in the first.
+conditions:
+  - {name: choice, text_field: choice_text}
+  - {name: rejection, text_field: rejection_text}
+
+# The fields of one stimulus, with the description the generator sees.
+stimulus_fields:
+  situation: what you are trying to do and the two options, one or two sentences
+  category: the product, service or decision category
+  option_a: a short name for the option the other person did NOT end up with
+  option_b: a short name for the option the other person ended up with
+  source: who conveys the other person's decision
+  channel: how you learn it
+  choice_text: the choice-frame text
+  rejection_text: the rejection-frame text
+
+# How a stimulus is rendered. `line` is listed in the generator prompt and embedded for deduplication.
+# `full` goes into the paraphrase and screen prompts. `rated` goes into the moderator prompt (after step 5).
+views:
+  line: "{situation} | from {source}, via {channel} | choice: {choice_text} | rejection: {rejection_text}"
+  full: |
+    Situation: {situation}
+    Option A: {option_a}
+    Option B: {option_b}
+    Who conveys the other person's decision: {source}
+    How you learn it: {channel}
+    Text in the choice condition: {choice_text}
+    Text in the rejection condition: {rejection_text}
+  rated: |
+    Scenario: {scenario}
+
+    Option A: {option_a}
+    Option B: {option_b}
+
+    What the person reads next: {intro}
+    Version 1: {choice_text}
+    Version 2: {rejection_text}
+
+    In both versions, the other person ended up with Option B and passed over Option A.
+
+# Seed stimuli: the published studies (Nan, Park & Yang 2023). `human` holds the published share of
+# participants who chose the other person's option in each frame, for comparison with the twins.
+seeds:
+  - {id: seed1, situation: "watching a livestream shopping event for children's products and entering a lucky draw for a free kids' water bottle", category: "kids' insulated water bottle", option_a: Babycare bottle, option_b: Bei Ju Xiong bottle, source: "the livestream host (an influencer), about her friend", channel: livestream,
+     choice_text: "I asked my friend to decide between the two bottles the other day, and she chose the Bei Ju Xiong bottle.",
+     rejection_text: "I asked my friend to decide between the two bottles the other day, and she did not choose the Babycare bottle.",
+     human: {choice: 23.9, rejection: 36.6, n: 170}}
+  - {id: seed2, situation: "getting a free granola bar from a researcher on campus, right after your friend picks one", category: granola bar, option_a: the Kashi bar, option_b: "the other brand's bar", source: "your friend, seen in person", channel: in-person observation,
+     choice_text: "Your friend was asked which bar she wants and said she wants the other brand's bar.",
+     rejection_text: "Your friend was asked which bar she does not want and said she does not want the Kashi bar.",
+     human: {choice: 28.2, rejection: 56.1, n: 201}}
+  - {id: seed3a, situation: "booking a hotel room for a trip; breakfast is a buffet for $9 more and looks good in the photos", category: hotel room add-on, option_a: breakfast-included room, option_b: room-only option, source: a consumer who stayed there, channel: review on a travel website,
+     choice_text: "We were there last week and we chose the room-only option after doing some research. The room was nice and we enjoyed our stay.",
+     rejection_text: "We were there last week and we did not choose the breakfast-included option after doing some research. The room was nice and we enjoyed our stay.",
+     human: {choice: 23.2, rejection: 45.2, n: 288}}
+  - {id: seed3b, situation: "buying instant ramen for lunch at a convenience store with your coworker Sam", category: instant ramen, option_a: ramen B, option_b: ramen A, source: "your coworker Sam, seen in the store", channel: in-person observation,
+     choice_text: "Sam held both ramens side by side, examined them carefully, and put ramen A, the one she wanted, in the shopping basket.",
+     rejection_text: "Sam held both ramens side by side, examined them carefully, and put ramen B, the one she did not want, back on the shelf.",
+     human: {choice: 51.9, rejection: 64.4, n: 376}}
+  - {id: seed3c, situation: "looking for a new house and choosing between two neighborhoods, Oakland and Squirrel Hill", category: neighborhood to live in, option_a: Oakland, option_b: Squirrel Hill, source: "your realtor, about a mutual friend Susie", channel: conversation in the car,
+     choice_text: "I heard she decided to choose Squirrel Hill.",
+     rejection_text: "I heard she decided not to choose Oakland.",
+     human: {choice: 46.9, rejection: 60.5, n: 379}}
+  - {id: seed4, situation: "planning a summer getaway to Miami and comparing discounted hotels on Tripadvisor (the original had three hotels; shown here as two)", category: hotel, option_a: Hotel Soho, option_b: Ivy Hotel, source: another traveler, channel: reply to your question on a Tripadvisor forum,
+     choice_text: "I was deciding between these hotels. I did some research and decided to stay at Ivy.",
+     rejection_text: "I was deciding between these hotels. I did some research and decided not to stay at Hotel Soho.",
+     human: {choice: 29.7, rejection: 54.5, n: 293}}
+  - {id: seed5, situation: "buying discounted Bluetooth headphones on Black Friday; one model has a slightly longer battery life, the other weighs less", category: Bluetooth headphones, option_a: WH-L600, option_b: HQX700, source: another consumer, channel: reply to your question on an online forum,
+     choice_text: "He also saw the deal and decided to buy HQX700 after doing some research.",
+     rejection_text: "He also saw the deal and decided not to buy WH-L600 after doing some research.",
+     human: {choice: 25.9, rejection: 34.6, n: 582}}
+
+# Prompt templates. The generic ones live in prompts/; the effect-specific ones in prompts/examples/.
+prompts:
+  generator: prompts/generator.txt
+  paraphrase: prompts/paraphrase.txt
+  screens: prompts/screens.txt
+  twin_system: prompts/twin_system.txt
+  twin_task: prompts/examples/choice_rejection/twin_task.txt
+  moderator: prompts/moderator.txt
+
+# Step 2-3: generation and deduplication.
+generation:
+  system: You write stimuli for a consumer-behavior study about how other people's decisions influence our own.
+  mode: list            # list: each call sees every unique stimulus so far; independent: each call sees only the seeds
+  batch_size: 10        # new stimuli per call
+  max_unique: 1000      # hard cap on unique stimuli
+  dry_batches: 3        # list mode: stop after this many batches in a row ...
+  min_new: 3            # ... that each add fewer than this many unique stimuli
+  target_coverage: 0.95 # independent mode: stop when Good-Turing coverage reaches this
+  dimensions: |
+    1. The product, service or decision: any area of life (food, travel, tech, health, home, finance, education, leisure, kids, pets, cars, clothing, services, subscriptions, ...), any price level.
+    2. Who conveys the other person's decision: for example an online reviewer, a friend, a family member, a coworker, a salesperson, an influencer, an expert, a stranger you observe.
+    3. How you learn it: for example a written review, a forum reply, a text message, a conversation, seeing them do it in a store, a social media post.
+    4. How the accept or reject is said: for example chose / did not choose, took / left, kept / returned, put in the basket / put back, signed up for / turned down, added / removed, picked / passed on.
+  rules: |
+    - The choice must be truly binary: A and B are the only two realistic options in the situation.
+    - Neither option should be obviously better. Each has a real reason to pick it.
+    - The two frame texts say the same thing in every other word; they differ only in the accept-or-reject phrase and in which option it names. Both make clear that the other person ended up with B.
+    - Write the situation in the second person ("you").
+
+# Step 3: epsilon calibration. Two stimuli closer than epsilon (cosine distance) count as the same stimulus.
+epsilon:
+  n_paraphrases: 5
+  quantile: 0.95
+  keep: Keep the same situation, the same two options, the same person conveying it, the same channel and the same accept-or-reject verbs; change only the wording.
+  fields: [situation, source, channel, choice_text, rejection_text]
+
+# Step 4: selection.
+selection:
+  k: 100
+
+# Step 5: screens. The screen writer adds these fields to each picked stimulus.
+screens:
+  system: You write stimuli for a consumer-behavior study about how other people's decisions influence our own.
+  fields:
+    scenario: >-
+      three to five sentences in the second person that start with "Imagine that you are". Say why you are making
+      this decision and what the two options are. Give each option one or two concrete features (for example price,
+      time, size, or quality) and a real reason to pick it, so that a reasonable person could choose either one.
+      End with "Please think about whether you would choose {option_a} or {option_b}."
+    intro: >-
+      one short sentence that sets up who the other person is and how you learn their decision, and ends with a
+      colon, for example "Before you decide, your sister texts you:".
+  rules: |
+    - Participants read the scenario, then the intro and one of the two condition texts, then choose between the two options.
+    - Do not favor either option. Use the features given above and invent only minor, balanced details. Use plain, everyday words.
+    - The scenario sets up everything that the two condition texts refer to, and does not mention the other person or their decision.
+    - Use the option names exactly as written above, so that participants can match them to the answer choices.
+    - The intro fits both condition texts, does not name either option, does not reveal the decision, and does not repeat any detail that the texts say.
+
+# Step 6: the twin run. One isolated request per twin x stimulus x condition.
+twins:
+  n: 2058               # all Twin-2K-500 twins; use fewer for a pilot
+  seed: 20261101        # fixes the random option order per twin x stimulus
+dv:
+  name: pref_b
+  scale: [1, 7]
+  # Optional. The two fields are shown as {option_1} and {option_2} in random order per twin x stimulus
+  # (the same order in both conditions). The answer is recoded so that the top of the scale always means
+  # the second field here (option_b, the option the other person ended up with).
+  counterbalance: [option_a, option_b]
+
+# Step 8: moderator ratings.
+moderators:
+  catalog: prompts/examples/choice_rejection/moderators.json
+  reps: 3
+  system: You rate everyday decisions for a behavioral study.
+
+# Models and prices (US$ per million tokens). Check current prices before a large run.
+# cache_write is the 5-minute price; cache_write_1h is used by the batch run.
+models:
+  generator: {name: claude-sonnet-5-5, effort: medium, price: {input: 2.00, output: 10.00, cache_write: 2.50, cache_write_1h: 4.00, cache_read: 0.20}}
+  twin:      {name: claude-haiku-5-5, effort: low, price: {input: 0.10, output: 0.50, cache_write: 0.125, cache_write_1h: 0.20, cache_read: 0.01}}
+  rater:     {name: claude-haiku-5-5, effort: low, price: {input: 0.10, output: 0.50, cache_write: 0.125, cache_write_1h: 0.20, cache_read: 0.01}}
+  embedding: {name: text-embedding-3-large}

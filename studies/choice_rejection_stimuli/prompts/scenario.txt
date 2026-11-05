@@ -1,0 +1,16 @@
+You are writing the screens for one stimulus in a study about how other people's decisions influence our own. Participants read a scenario, then learn about another person's decision, then choose between the two options. Participants are ordinary adults who know nothing about the study. From the screens alone, they must understand the situation well enough to make a real choice, the way they would in daily life.
+
+Stimulus:
+Situation: {situation}
+Option A: {option_a}
+Option B: {option_b}
+Who conveys the other person's decision: {source}
+How you learn it: {channel}
+Text version 1 (shown to half the participants): {choice_text}
+Text version 2 (shown to the other half): {rejection_text}
+
+Write two pieces:
+1. "scenario": three to five sentences in the second person that start with "Imagine that you are". Say why you are making this decision and what the two options are. Give each option one or two concrete features (for example price, time, size, or quality) and a real reason to pick it, so that a reasonable person could choose either one. Do not favor either option. Use the features given above and invent only minor, balanced details. Use plain, everyday words. Set up everything that the two text versions refer to (for example, if a text says "the compact one" or "for her mother", the scenario must make clear which option is compact and who it is for). Use the option names exactly as written above, so that participants can match them to the answer choices. Do not mention the other person or their decision. End with "Please think about whether you would choose {option_a} or {option_b}."
+2. "intro": one short sentence that sets up who the other person is and how you learn their decision, and ends with a colon, for example "Before you decide, your sister texts you:" or "Before you decide, you notice the shopper next to you:". It must fit both text versions, must not name either option, must not reveal the decision, and must not repeat any detail that the texts say.
+
+Reply with JSON only: {"scenario": "...", "intro": "..."}

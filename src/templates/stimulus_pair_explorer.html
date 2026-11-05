@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explore how focal contrast and non-focal balance change which stimuli we choose for a human study.">
+<title>Find your pair · Stimulus lab</title>
+<style>
+:root{color-scheme:light;--paper:#f7f6f0;--ink:#202c35;--muted:#57646c;--line:#d9ded9;--accent:#17665d;--gold:#f0c874;--low:#277c82;--high:#9a5078;--night:#102731;--star:#8ecbc2;--white:#fff;--panel:#fffef9;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);line-height:1.55}main{max-width:1260px;margin:auto;padding:36px 40px 64px}button,select{font:inherit}button,summary,select{cursor:pointer}button:focus-visible,select:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}button{color:inherit}button:hover{filter:brightness(.96)}[hidden]{display:none!important}.eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:12px;font-weight:650}.topline{display:flex;justify-content:space-between;gap:20px;color:var(--muted);align-items:center}.topline span:last-child{font-size:13px}.hero{display:flex;justify-content:space-between;gap:30px;align-items:end;padding:28px 0 30px}h1{font-family:Georgia,serif;font-size:clamp(40px,5vw,66px);line-height:1.05;letter-spacing:-.04em;font-weight:400;margin:0 0 12px}p{margin:0}.intro{font-size:17px;max-width:620px;color:var(--muted)}.hero-note{max-width:250px;font-size:13px;color:var(--muted);padding-bottom:4px}.hero-note strong{color:var(--ink);font-weight:600}.controls{display:flex;gap:28px;flex-wrap:wrap;align-items:end;border-top:1px solid var(--line);padding:24px 0}.field{display:grid;gap:8px;min-width:0}.field label,.control-label{font-size:13px;font-weight:600}.field select{width:100%;max-width:390px;background:var(--panel);color:var(--ink);border:1px solid #acb9b5;border-radius:10px;padding:11px 36px 11px 12px}.penalty-controls{display:grid;gap:8px}.penalties{display:flex;gap:8px;flex-wrap:wrap}.penalties button{min-width:67px;padding:10px 18px;border:1px solid #acb9b5;border-radius:10px;background:transparent;font-weight:550}.penalties button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--white)}.penalty-help{font-size:13px;color:var(--muted);align-self:center;max-width:240px;padding-top:25px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 305px;gap:24px;align-items:stretch}.plot-panel{border-radius:20px;background:var(--night);color:#edf5f2;overflow:hidden;padding:22px 20px 12px;min-width:0}.plot-heading{display:flex;justify-content:space-between;align-items:center;gap:16px}.plot-heading h2{font-size:17px;font-weight:550;margin:0}.plot-heading span{font-size:12px;color:#bbd5d1}.plot-note{font-size:13px;color:#bbd5d1;margin:4px 0 10px}.plot-wrap{position:relative}#pair-chart{display:block;width:100%;height:370px;overflow:visible}.chart-text{fill:#d6e9e4;font-size:12px;font-family:inherit}.chart-axis{fill:#b6d1cd;font-size:11px;font-family:inherit}.legend{display:flex;gap:15px;flex-wrap:wrap;font-size:12px;color:#d3e5e1;margin:7px 0 3px}.legend span{display:flex;gap:7px;align-items:center}.dot-key{width:8px;height:8px;border-radius:50%;background:var(--star)}.winner-key{width:12px;height:12px;border:2px solid var(--gold);border-radius:50%}.line-key{width:20px;border-top:1px dashed #a9c6c0}.tooltip{position:absolute;pointer-events:none;max-width:min(270px,90%);background:#fffef5;color:var(--ink);padding:10px 12px;border-radius:9px;font-size:12px;box-shadow:0 8px 30px #071a1e55;z-index:2}.inspect-hint{font-size:12px;color:#bbd5d1;padding-top:9px}.decision{padding:6px 0 0;display:flex;flex-direction:column;gap:15px;min-width:0}.decision .eyebrow{color:var(--accent)}.score{font-size:36px;letter-spacing:-.04em;line-height:1.15;font-variant-numeric:tabular-nums}.score small{font-size:14px;font-weight:400;letter-spacing:0}.score-formula{font-size:13px;color:var(--muted)}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:16px 12px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.metric strong{display:block;font-size:24px;font-weight:500;font-variant-numeric:tabular-nums}.metric span{display:block;font-size:12px;color:var(--muted)}.decision-copy{font-size:13px;color:var(--muted)}.decision-copy strong{color:var(--ink)}.quiet-button{border:1px solid #a9b8b2;border-radius:8px;background:transparent;padding:8px 12px;font-size:13px;text-align:center}.inspect{margin-top:18px;padding:14px 0;border-bottom:1px solid var(--line)}.inspect summary{font-size:13px;font-weight:550}.inspect .field{margin-top:12px}.inspect select{max-width:none}.section-title{display:flex;justify-content:space-between;gap:18px;align-items:baseline;margin:32px 0 14px}h2{font-size:21px;font-weight:550;margin:0;letter-spacing:-.02em}.section-title p{font-size:13px;color:var(--muted)}.scenarios{display:grid;grid-template-columns:1fr 1fr;gap:20px}.scenario{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px;min-width:0}.scenario .eyebrow{color:var(--low)}.scenario.high .eyebrow{color:var(--high)}.scenario h3{font-family:Georgia,serif;font-size:25px;line-height:1.2;font-weight:400;margin:10px 0 14px;letter-spacing:-.02em}.scenario .text{font-size:14px}.scenario .options{border-top:1px solid var(--line);margin-top:16px;padding-top:13px;font-size:12px;color:var(--muted)}.scenario .options div+div{margin-top:5px}.rating{font-variant-numeric:tabular-nums}.feature-heading{margin-top:30px}.feature-legend{font-size:12px;color:var(--muted);display:flex;gap:18px;align-items:center}.feature-legend span{display:flex;align-items:center;gap:6px}.low-key,.high-key{width:9px;height:9px;display:inline-block;background:var(--low);border-radius:50%}.high-key{background:var(--high);border-radius:1px}.features{display:grid;grid-template-columns:1fr 1fr;column-gap:36px}.feature-row{display:grid;grid-template-columns:minmax(95px,1fr) minmax(80px,1fr) 36px;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line);min-height:49px}.feature-name{font-size:12px;line-height:1.25}.feature-track{position:relative;height:18px;background:linear-gradient(var(--line),var(--line)) center/100% 2px no-repeat;margin:0 5px}.feature-segment{height:3px;position:absolute;top:7.5px;background:#a6b5ae}.feature-point{width:9px;height:9px;position:absolute;top:4.5px;transform:translateX(-50%);border-radius:50%;background:var(--low);transition:left .24s ease}.feature-point.high{border-radius:1px;background:var(--high)}.feature-gap{text-align:right;font-size:12px;font-variant-numeric:tabular-nums}.feature-scale{font-size:12px;color:var(--muted);margin-top:10px}.table-scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:12px;color:var(--muted);font-weight:550}th:first-child,td:first-child{padding-left:0}td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}tr.current{background:#e4ece5}td button{background:transparent;border:0;font-weight:600;text-decoration:underline;text-underline-offset:3px;padding:0;white-space:nowrap}.pair-names{min-width:200px}.method{margin-top:34px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.method summary{color:var(--ink);font-weight:550}.method p{max-width:900px;margin-top:12px}.method ul{padding-left:20px;max-width:900px}.method li{margin:6px 0}footer{margin-top:32px;display:flex;justify-content:space-between;gap:20px;font-size:12px;color:var(--muted)}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}noscript{display:block;padding:25px;color:#8b2020}
+@media(max-width:950px){.layout{grid-template-columns:minmax(0,1fr) 260px}.hero-note{display:none}main{padding:28px 24px 48px}.plot-panel{padding:18px 12px 12px}.penalty-help{display:none}}
+@media(max-width:720px){main{padding:22px 16px 40px}.topline span:last-child{max-width:120px;text-align:right}.hero{padding:25px 0}.intro{font-size:15px}.layout{grid-template-columns:1fr}.decision{gap:12px}.metrics{grid-template-columns:repeat(4,1fr);gap:8px}.metric strong{font-size:22px}.metric span{font-size:11px}.scenarios,.features{grid-template-columns:1fr}.controls{gap:18px}.controls>.field{width:100%}.field select{max-width:none}.penalties button{min-width:62px}.plot-heading{align-items:start}.plot-heading span{max-width:120px;text-align:right}#pair-chart{height:330px}.section-title{display:block}.section-title p{margin-top:4px}.scenario{padding:20px}.score{font-size:30px}.decision-copy{max-width:600px}.feature-heading{display:flex;flex-wrap:wrap}.feature-row{grid-template-columns:minmax(100px,1fr) minmax(100px,1fr) 35px}.feature-legend{margin-top:8px}footer{display:block}footer p+p{margin-top:8px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+@media print{main{padding:0}.controls,.inspect,footer{display:none}.layout{grid-template-columns:1fr 250px}.scenarios{break-inside:avoid}.plot-panel{print-color-adjust:exact}.features{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<main>
+  <div class="topline"><span class="eyebrow">Stimulus lab / pair explorer</span><span>100 scenarios. Four ways to choose.</span></div>
+  <header class="hero"><div><h1>Find your pair.</h1><p class="intro">Turn up the focal contrast. Turn down everything else.<br>See what changes when you give balance more weight.</p></div><p class="hero-note"><strong>Real scenarios, real ratings.</strong><br>Every dot is an eligible stimulus pair from our 100-scenario set.</p></header>
+  <section class="controls" aria-label="Selection controls">
+    <div class="field"><label for="moderator">What should differ?</label><select id="moderator"></select></div>
+    <div class="penalty-controls"><div class="control-label">How much should balance count?</div><div class="penalties" id="penalties" role="group" aria-label="Balance penalty lambda"></div></div>
+    <p class="penalty-help">Larger λ means paying a higher price for movement on other features.</p>
+  </section>
+  <div class="layout">
+    <section class="plot-panel" aria-label="Eligible pair plot"><div class="plot-heading"><h2>The pair nebula</h2><span id="pool-count"></span></div><p class="plot-note">Higher = more focal contrast. Left = better balance.</p><div class="plot-wrap" id="plot-wrap"><svg id="pair-chart" role="img" aria-labelledby="chart-title chart-description"><title id="chart-title">Focal gap versus non-focal distance</title><desc id="chart-description">Each point is an eligible low/high stimulus pair. The gold ring identifies the highest-scoring pair for the selected penalty.</desc></svg><div class="tooltip" id="tooltip" hidden></div></div><div class="legend"><span><i class="dot-key"></i>Eligible pairs</span><span><i class="winner-key"></i>Best at this λ</span><span><i class="line-key"></i>Equal-score line</span></div><p class="inspect-hint">Tap a dot to inspect it, or use the pair selector below.</p></section>
+    <aside class="decision"><div class="eyebrow" id="selection-kind">Best pair at λ = 2</div><div><div class="score" id="score"></div><p class="score-formula" id="score-formula"></p></div><div class="metrics"><div class="metric"><strong id="focal-gap"></strong><span>Focal gap F ↑</span></div><div class="metric"><strong id="distance"></strong><span>Adjusted distance D ↓</span></div><div class="metric"><strong id="mean-other"></strong><span>Mean other shift ↓</span></div><div class="metric"><strong id="max-other"></strong><span>Largest other shift ↓</span></div></div><p class="decision-copy" id="worst-dimension"></p><p class="decision-copy" id="choice-context"></p><button class="quiet-button" id="back-to-winner" type="button" hidden>Back to the best pair</button><p class="decision-copy">All pairs span the bottom and top tertiles. Prices do not enter selection.</p></aside>
+  </div>
+  <p class="sr-only" id="announcement" aria-live="polite"></p>
+  <details class="inspect"><summary>Inspect another eligible pair</summary><div class="field"><label for="pair-select">All eligible pairs, ordered by score</label><select id="pair-select"></select></div></details>
+  <section aria-labelledby="scenarios-title"><div class="section-title"><h2 id="scenarios-title">Meet the two scenarios</h2><p>Low and high refer to the focal rating, not price.</p></div><div class="scenarios"><article class="scenario"><div class="eyebrow" id="low-kicker"></div><h3 id="low-title"></h3><p class="text" id="low-text"></p><div class="options" id="low-options"></div></article><article class="scenario high"><div class="eyebrow" id="high-kicker"></div><h3 id="high-title"></h3><p class="text" id="high-text"></p><div class="options" id="high-options"></div></article></div></section>
+  <section aria-labelledby="feature-title"><div class="section-title feature-heading"><h2 id="feature-title">What else moves?</h2><div class="feature-legend"><span><i class="low-key"></i>Low stimulus</span><span><i class="high-key"></i>High stimulus</span></div></div><div class="features" id="feature-differences"></div><p class="feature-scale">Each track runs from 0 to 10. Right-hand values are absolute gaps. Features are sorted by gap; these raw gaps are not the correlation-adjusted score.</p></section>
+  <section aria-labelledby="compare-title"><div class="section-title"><h2 id="compare-title">Four weights, side by side</h2><p id="comparison-caption"></p></div><div class="table-scroll"><table><thead><tr><th scope="col">λ</th><th scope="col">Best low → high pair</th><th scope="col" class="num">F ↑</th><th scope="col" class="num">D ↓</th><th scope="col" class="num">Mean other ↓</th><th scope="col" class="num">Max other ↓</th></tr></thead><tbody id="comparison-rows"></tbody></table></div></section>
+  <details class="method"><summary>The method, in plain sight</summary><p><strong>Maximize F − λD.</strong> F is the high-minus-low focal rating. D summarizes movement on all 19 other rated features. A larger focal gap always wins when D is equal. Each additional unit of D costs λ points of F. Negative scores simply mean the penalty exceeds the gap; compare scores only within the same moderator and λ.</p><ul><li>The 100 stimuli each have 20 features, with three LLM ratings per feature. These are exploratory design ratings, not human ground truth.</li><li>Low must be in the bottom empirical tertile and high in the top, including boundary ties, with high strictly greater than low. There is no two-point minimum or non-focal tolerance.</li><li>D uses the fixed correlation geometry from all 100 stimuli, excluding the focal feature. If R = Q diag(η) Qᵀ, W = Q diag(1/max(η,1)) Qᵀ and D = √(ΔᵀWΔ). Δ contains original rating-point differences. Correlated common movement is discounted; no direction is amplified. This is a proposed distance, not standard Mahalanobis distance or proof that correlated constructs are identical.</li><li>Ties prefer smaller D, then larger F, then stimulus IDs. Numerical sorting keys round to ten decimal places. The plot shows all eligible pairs; no PCA projection or outcomes enter these coordinates.</li><li>The three comparison moderators had small twin-study point estimates; they are not established null effects. Pair searches permit stimulus reuse.</li><li>These targeted pairs are not a representative sample for a population mean. A single pair does not isolate a moderator from every other scenario difference.</li></ul><p>This document works offline. For sharing as a Gist, include this HTML file and the accompanying Markdown report; recipients can download the HTML and open it in a browser.</p></details>
+  <footer><p>LLM Heterogeneity · Audited stimulus selection · 18 October 2026</p><p>No network requests. All data live in this file.</p></footer>
+  <noscript>This explorer needs JavaScript to display the embedded data. The accompanying Markdown report contains the full results.</noscript>
+</main>
+<script id="explorer-data" type="application/json">__EXPLORER_DATA__</script>
+<script>
+(() => {
+  'use strict';
+  const data = JSON.parse(document.getElementById('explorer-data').textContent);
+  const el = id => document.getElementById(id);
+  const fmt = n => n.toFixed(2);
+  const ns = 'http://www.w3.org/2000/svg';
+  const state = {moderator: data.defaultModerator, penalty: data.penalties.indexOf(2), pair: null};
+  let positions = [], currentOrder = [];
+  const mod = () => data.moderators[state.moderator];
+  const penalty = () => data.penalties[state.penalty];
+  const winner = () => mod().winners[state.penalty];
+  const selected = () => state.pair === null ? winner() : state.pair;
+  const score = (pair, lambda = penalty()) => pair[2] - lambda * pair[3];
+  const round = value => Math.round(value * 1e10) / 1e10;
+  const text = (id, value) => { el(id).textContent = value; };
+
+  function svgNode(tag, attributes, content) {
+    const node = document.createElementNS(ns, tag);
+    Object.entries(attributes).forEach(([key, value]) => node.setAttribute(key, value));
+    if (content !== undefined) node.textContent = content;
+    return node;
+  }
+
+  function metrics(pair, moderator = mod()) {
+    const low = data.stimuli[pair[0]], high = data.stimuli[pair[1]];
+    const diffs = data.features.map((feature, index) => ({name: feature.name, index,
+      low: low.ratings[index], high: high.ratings[index], gap: Math.abs(high.ratings[index] - low.ratings[index])}))
+      .filter(d => d.index !== moderator.featureIndex).sort((a, b) => b.gap - a.gap || a.index - b.index);
+    return {low, high, diffs, mean: diffs.reduce((total, d) => total + d.gap, 0) / diffs.length, max: diffs[0].gap};
+  }
+
+  function rankedIndices(moderator, lambda) {
+    return moderator.pairs.map((_, i) => i).sort((ai, bi) => {
+      const a = moderator.pairs[ai], b = moderator.pairs[bi];
+      return round(score(b, lambda)) - round(score(a, lambda)) || round(a[3]) - round(b[3]) || round(b[2]) - round(a[2])
+        || data.stimuli[a[0]].id.localeCompare(data.stimuli[b[0]].id) || data.stimuli[a[1]].id.localeCompare(data.stimuli[b[1]].id);
+    });
+  }
+
+  function choosePenalty(index) {
+    state.penalty = index; state.pair = null; render();
+  }
+
+  function buildControls() {
+    for (const comparison of [false, true]) {
+      const group = document.createElement('optgroup');
+      group.label = comparison ? 'Proposed comparisons' : 'Seven nominated moderators';
+      data.moderators.forEach((m, i) => {
+        if (m.comparison !== comparison) return;
+        const option = document.createElement('option'); option.value = i; option.textContent = m.name;
+        group.append(option);
+      });
+      el('moderator').append(group);
+    }
+    el('moderator').value = state.moderator;
+    el('moderator').addEventListener('change', event => {
+      state.moderator = Number(event.target.value); state.pair = null; render();
+    });
+    data.penalties.forEach((value, index) => {
+      const button = document.createElement('button'); button.type = 'button'; button.textContent = `λ ${value}`;
+      button.dataset.penalty = value; button.setAttribute('aria-pressed', 'false');
+      button.addEventListener('click', () => choosePenalty(index)); el('penalties').append(button);
+    });
+    el('pair-select').addEventListener('change', event => { state.pair = Number(event.target.value); renderDetails(); drawPlot(); });
+    el('back-to-winner').addEventListener('click', () => { state.pair = null; renderDetails(); drawPlot(); });
+  }
+
+  function pairOptions() {
+    currentOrder = rankedIndices(mod(), penalty());
+    const fragment = document.createDocumentFragment();
+    currentOrder.forEach((index, rank) => {
+      const p = mod().pairs[index], option = document.createElement('option');
+      option.value = index;
+      option.textContent = `${rank + 1}. ${data.stimuli[p[0]].id} → ${data.stimuli[p[1]].id} · F ${fmt(p[2])}, D ${fmt(p[3])} · ${data.stimuli[p[0]].label} → ${data.stimuli[p[1]].label}`;
+      fragment.append(option);
+    });
+    el('pair-select').replaceChildren(fragment);
+  }
+
+  function renderScenario(side, stimulus, rating) {
+    text(`${side}-kicker`, `${side === 'low' ? 'Low' : 'High'} · ${stimulus.id} · rating ${fmt(rating)} / 10`);
+    text(`${side}-title`, stimulus.label); text(`${side}-text`, stimulus.text);
+    const options = stimulus.options.map(option => {
+      const div = document.createElement('div'); div.textContent = `${option.label} · $${option.cost}`; return div;
+    });
+    el(`${side}-options`).replaceChildren(...options);
+  }
+
+  function renderFeatures(diffs) {
+    const fragment = document.createDocumentFragment();
+    diffs.forEach(d => {
+      const row = document.createElement('div'); row.className = 'feature-row';
+      row.setAttribute('aria-label', `${d.name}: low ${fmt(d.low)}, high ${fmt(d.high)}, difference ${fmt(d.gap)}`);
+      const name = document.createElement('span'); name.className = 'feature-name'; name.textContent = d.name;
+      const track = document.createElement('div'); track.className = 'feature-track'; track.setAttribute('aria-hidden', 'true');
+      const segment = document.createElement('span'); segment.className = 'feature-segment';
+      segment.style.left = `${Math.min(d.low, d.high) * 10}%`; segment.style.width = `${d.gap * 10}%`; track.append(segment);
+      ['low', 'high'].forEach(side => { const point = document.createElement('span'); point.className = `feature-point ${side}`; point.style.left = `${d[side] * 10}%`; track.append(point); });
+      const gap = document.createElement('span'); gap.className = 'feature-gap'; gap.textContent = fmt(d.gap);
+      row.append(name, track, gap); fragment.append(row);
+    });
+    el('feature-differences').replaceChildren(fragment);
+  }
+
+  function renderDetails() {
+    const pair = mod().pairs[selected()], m = metrics(pair), isWinner = selected() === winner();
+    text('selection-kind', isWinner ? `Best pair at λ = ${penalty()}` : `Inspecting pair #${currentOrder.indexOf(selected()) + 1}`);
+    text('score', `${fmt(score(pair))} score`);
+    text('score-formula', `${fmt(pair[2])} − ${penalty()} × ${fmt(pair[3])}`);
+    text('focal-gap', fmt(pair[2])); text('distance', fmt(pair[3])); text('mean-other', fmt(m.mean)); text('max-other', fmt(m.max));
+    text('worst-dimension', `Largest other shift: ${m.diffs[0].name} (${fmt(m.max)} points).`);
+    text('choice-context', isWinner ? `Highest score among ${mod().pairs.length.toLocaleString()} eligible pairs. ${mod().comparison ? 'Proposed comparison moderator.' : 'Nominated moderator.'}` : `${fmt(score(mod().pairs[winner()]) - score(pair))} score points below the best pair at this λ.`);
+    el('back-to-winner').hidden = isWinner; el('pair-select').value = selected();
+    renderScenario('low', m.low, m.low.ratings[mod().featureIndex]);
+    renderScenario('high', m.high, m.high.ratings[mod().featureIndex]);
+    renderFeatures(m.diffs);
+    text('announcement', `${mod().name}, lambda ${penalty()}. ${isWinner ? 'Best pair' : 'Inspected pair'} ${m.low.id} to ${m.high.id}. Focal gap ${fmt(pair[2])}, adjusted distance ${fmt(pair[3])}.`);
+    document.body.dataset.moderator = mod().id; document.body.dataset.penalty = penalty();
+    document.body.dataset.pair = `${m.low.id}:${m.high.id}`;
+  }
+
+  function renderComparison() {
+    text('comparison-caption', mod().name);
+    const rows = data.penalties.map((lambda, index) => {
+      const pair = mod().pairs[mod().winners[index]], m = metrics(pair), row = document.createElement('tr');
+      if (index === state.penalty) row.className = 'current';
+      const cell = document.createElement('td'), button = document.createElement('button');
+      button.type = 'button'; button.textContent = `λ ${lambda}`; button.addEventListener('click', () => choosePenalty(index)); cell.append(button); row.append(cell);
+      const names = document.createElement('td'); names.className = 'pair-names'; names.textContent = `${m.low.label} → ${m.high.label}`; row.append(names);
+      [pair[2], pair[3], m.mean, m.max].forEach(value => { const td = document.createElement('td'); td.className = 'num'; td.textContent = fmt(value); row.append(td); });
+      return row;
+    });
+    el('comparison-rows').replaceChildren(...rows);
+  }
+
+  function drawPlot() {
+    const svg = el('pair-chart'), width = svg.clientWidth, height = svg.clientHeight;
+    if (!width || !height) return;
+    svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+    const m = {left:48, right:15, top:17, bottom:54}, w = width - m.left - m.right, h = height - m.top - m.bottom;
+    const pairs = mod().pairs, best = pairs[winner()];
+    const maxD = Math.max(...pairs.map(p => p[3])) * 1.05, maxF = Math.max(...pairs.map(p => p[2])) * 1.09;
+    const x = d => m.left + d / maxD * w, y = f => m.top + h - f / maxF * h;
+    const children = [svgNode('title', {id:'chart-title'}, `${mod().name}: gap versus balance`),
+      svgNode('desc', {id:'chart-description'}, `${pairs.length} eligible pairs. The highest-scoring pair at lambda ${penalty()} has focal gap ${fmt(best[2])} and non-focal distance ${fmt(best[3])}.`)];
+    const defs = svgNode('defs', {}), clip = svgNode('clipPath', {id:'plot-clip'});
+    clip.append(svgNode('rect', {x:m.left,y:m.top,width:w,height:h})); defs.append(clip); children.push(defs);
+    const ticks = width < 430 ? 3 : 4;
+    for (let i = 0; i <= ticks; i++) {
+      const dx = maxD * i / ticks, fy = maxF * i / ticks;
+      children.push(svgNode('line',{x1:x(dx),x2:x(dx),y1:m.top,y2:m.top+h,stroke:'#315057','stroke-width':.6}));
+      children.push(svgNode('line',{x1:m.left,x2:m.left+w,y1:y(fy),y2:y(fy),stroke:'#315057','stroke-width':.6}));
+      children.push(svgNode('text',{x:x(dx),y:m.top+h+18,'text-anchor':'middle',class:'chart-axis'}, dx.toFixed(1)));
+      children.push(svgNode('text',{x:m.left-9,y:y(fy)+4,'text-anchor':'end',class:'chart-axis'}, fy.toFixed(1)));
+    }
+    children.push(svgNode('text',{x:m.left+w/2,y:height-9,'text-anchor':'middle',class:'chart-text'}, 'Non-focal distance D →'));
+    children.push(svgNode('text',{transform:`translate(13 ${m.top+h/2}) rotate(-90)`,'text-anchor':'middle',class:'chart-text'}, 'Focal gap F (points) →'));
+    const cloud = svgNode('g',{'clip-path':'url(#plot-clip)'});
+    positions = pairs.map((p,index) => ({x:x(p[3]),y:y(p[2]),index}));
+    positions.forEach(p => cloud.append(svgNode('circle',{cx:p.x,cy:p.y,r:2.1,fill:'#8ecbc2',opacity:.30})));
+    const intercept = score(best);
+    cloud.append(svgNode('line',{x1:x(0),y1:y(intercept),x2:x(maxD),y2:y(intercept+penalty()*maxD),stroke:'#c4d8d2','stroke-dasharray':'5 5','stroke-width':1.2}));
+    children.push(cloud);
+    const win = positions[winner()];
+    children.push(svgNode('circle',{cx:win.x,cy:win.y,r:11,fill:'#f0c874',opacity:.14}));
+    children.push(svgNode('circle',{cx:win.x,cy:win.y,r:6,fill:'#102731',stroke:'#f0c874','stroke-width':2.5}));
+    if (selected() !== winner()) {
+      const chosen = positions[selected()];
+      children.push(svgNode('rect',{x:chosen.x-5,y:chosen.y-5,width:10,height:10,fill:'#102731',stroke:'#f2f6f4','stroke-width':2}));
+    }
+    svg.replaceChildren(...children);
+  }
+
+  function nearestPoint(event) {
+    const rect = el('pair-chart').getBoundingClientRect(), x = event.clientX - rect.left, y = event.clientY - rect.top;
+    let closest = null, distance = 24 * 24;
+    positions.forEach(p => { const d = (p.x-x)**2 + (p.y-y)**2; if (d < distance) { closest = p; distance = d; } });
+    return closest;
+  }
+
+  function hover(event) {
+    const point = nearestPoint(event), tip = el('tooltip');
+    if (!point) { tip.hidden = true; return; }
+    const pair = mod().pairs[point.index], low = data.stimuli[pair[0]], high = data.stimuli[pair[1]];
+    tip.textContent = `${low.id} → ${high.id} · F ${fmt(pair[2])} · D ${fmt(pair[3])} · score ${fmt(score(pair))}`;
+    tip.hidden = false;
+    tip.style.left = `${Math.max(0, Math.min(point.x+12, el('pair-chart').clientWidth-tip.offsetWidth))}px`;
+    tip.style.top = `${Math.max(0, point.y-tip.offsetHeight-12)}px`;
+  }
+
+  function render() {
+    [...el('penalties').children].forEach((button,i) => button.setAttribute('aria-pressed', String(i === state.penalty)));
+    text('pool-count', `${mod().pairs.length.toLocaleString()} eligible pairs`);
+    el('tooltip').hidden = true;
+    pairOptions(); renderDetails(); renderComparison(); drawPlot();
+  }
+
+  buildControls();
+  el('pair-chart').addEventListener('pointermove', hover);
+  el('pair-chart').addEventListener('pointerleave', () => { el('tooltip').hidden = true; });
+  el('pair-chart').addEventListener('click', event => {
+    const point = nearestPoint(event); if (!point) return;
+    state.pair = point.index; el('tooltip').hidden = true; renderDetails(); drawPlot();
+  });
+  new ResizeObserver(drawPlot).observe(el('pair-chart'));
+  render();
+})();
+</script>
+</body>
+</html>

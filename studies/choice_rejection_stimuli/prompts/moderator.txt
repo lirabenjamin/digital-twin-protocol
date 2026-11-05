@@ -1,0 +1,20 @@
+Below is one decision from a study about how people respond to what other people decide. A person reads a scenario with two options. Then they learn what another person decided, in one of two versions.
+
+Scenario: {scenario}
+
+Option A: {option_a}
+Option B: {option_b}
+
+What the person reads next: {intro}
+Version 1: {choice_text}
+Version 2: {rejection_text}
+
+In both versions, the other person ended up with Option B and passed over Option A.
+
+Rate this decision on one feature.
+
+Feature: {name}. {question}
+0 = {anchor0}
+10 = {anchor10}
+
+Use the whole scale from 0 to 10. Reply with JSON only: {"rating": <whole number from 0 to 10>}

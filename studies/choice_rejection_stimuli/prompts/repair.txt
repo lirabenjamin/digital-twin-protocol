@@ -1,0 +1,17 @@
+You are fixing one stimulus for a study about how other people's decisions influence our own. Participants are ordinary adults who know nothing about the study. They read screen 1 (scenario), then screen 2 (intro + one quoted text: either the choice version or the rejection version), then choose between Option A and Option B.
+
+Current stimulus (JSON):
+{stimulus}
+
+A reviewer found these problems:
+{problems}
+
+Fix every problem and change nothing else. Rules that the fixed stimulus must follow:
+1. The choice and rejection texts are word for word the same except the decision phrase: choice = "<verb> Option B", rejection = "did not <verb> Option A" (same verb). Use plain verbs (chose, picked, went with, bought, booked). The rejection text does not name Option B.
+2. The shared words make clear that the other person chose between these same two options and ended up with one of them (for example "bought one of the two", "picked one of the two seats"), so that a reader of the rejection text can infer they took Option B. Never write "it" or "the other" for an option.
+3. Both texts read as natural, grammatical English.
+4. The scenario is neutral: each option has a real reason, neither one is clearly better. The scenario sets up everything the texts refer to. The situation must leave the participant a real choice after learning the other person's decision (for example, the other person chose on another day, or more than one of each option is available).
+5. The intro sets up who the other person is and how you learn their decision, ends with a colon, fits both texts, does not name either option, and does not suggest that you have already decided or paid.
+6. Keep the scenario's first words "Imagine that you are" and its last sentence as it is.
+
+Reply with JSON only, with all four fields: {"scenario": "...", "intro": "...", "choice_text": "...", "rejection_text": "..."}

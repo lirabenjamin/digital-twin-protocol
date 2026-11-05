@@ -1,0 +1,5 @@
+# Dependencies for the stimulus-matching reports, explorer, survey CSVs, and tests.
+# Verified with Python 3.12.14. No model-provider SDK or API key is needed.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.18.1

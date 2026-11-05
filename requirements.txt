@@ -1,0 +1,12 @@
+# Pipeline (studies/choice_rejection_stimuli/, protocol/, code/). Verified with Python 3.14.
+anthropic>=1.15
+openai>=3.33
+numpy>=2.3
+pandas>=2.2
+scipy>=1.16
+pyarrow>=20       # reads the Twin-2K-500 parquet files
+pyyaml>=6         # protocol/ configs
+matplotlib>=3.10  # figures
+plotly>=6         # figures_interactive.py
+# The stimulus-matching code pins its own versions: requirements-matching.txt
+# R: tidyverse, lme4, jsonlite (moderation.R, person_moderation.R); protocol/scripts/moderation.R needs only lme4

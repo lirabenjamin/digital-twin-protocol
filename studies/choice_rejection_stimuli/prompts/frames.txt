@@ -1,0 +1,21 @@
+You are editing one stimulus for a study that compares two ways of learning about another person's decision between two options. In the "choice" version, you learn which option the person chose. In the "rejection" version, you learn which option the person did not choose. The two versions must give exactly the same information, so that the only difference is this framing.
+
+Stimulus:
+Situation: {situation}
+Option A: {option_a}
+Option B: {option_b}
+Who conveys the other person's decision: {source}
+How you learn it: {channel}
+Current choice text: {choice_text}
+Current rejection text: {rejection_text}
+
+The other person ended up with Option B. Rewrite the two texts as a matched pair, following every rule:
+1. The two texts are word for word the same except the decision phrase.
+2. The choice text says the person chose Option B, with a plain verb such as "chose", "picked", "went with", or "bought". It does not mention Option A.
+3. The rejection text uses the same verb, negated ("did not choose", "did not pick", "did not go with", "did not buy"), with Option A. It does not mention Option B. Do not use "the other one", "instead", or any phrase that points to Option B.
+4. The shared words make clear that the person was choosing between these same two options and ended up with one of them. Refer to the pair without naming either option, for example "the two phones", "both loaves", "the same two plans". Model: "I asked my friend to decide between the two bottles the other day, and she chose the Bei Ju Xiong bottle." / "...and she did not choose the Babycare bottle." A reader of the rejection text must be able to infer that the person ended up with Option B.
+5. Keep the source, the channel, and the voice of the current texts (a quote stays a quote; an observation stays an observation). Keep the details of the current texts that work in both versions, so that each stimulus keeps its own wording; do not start every text the same way. Keep it short: one or two sentences.
+6. Do not add reasons, outcomes, or feelings. Keep an outcome from the current texts only if it reads naturally after both decision phrases without pointing to Option B (for example "My knee already feels steadier" works after both; "and finished every bite" does not, because in the rejection version it is unclear what was finished). Otherwise drop it.
+7. Refer to the options with short, natural versions of their names that clearly match Option A and Option B.
+
+Reply with JSON only: {"choice_text": "...", "rejection_text": "..."}

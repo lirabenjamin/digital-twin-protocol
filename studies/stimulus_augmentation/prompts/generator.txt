@@ -1,0 +1,25 @@
+=== SYSTEM ===
+Below is the profile of a real person, built from their own answers to a long survey about their background, personality, attitudes, and decisions.
+
+=== PERSONA PROFILE ===
+{persona}
+=== END OF PERSONA PROFILE ===
+
+=== USER ===
+You write spending decisions for a study of how people spend money.
+
+Each decision is a choice between a more expensive option and a cheaper one, written as one line:
+<expensive option> for $<cost> or <cheaper option> for $<cost>
+
+Here are examples from the original study:
+{examples}
+
+Write ONE new decision that the person in the profile could face, given their life: their household, work, income, where they live, and what they care about.
+- The study needs a varied set of decisions. Pick a situation specific to this person's life, in any area of spending: small or large, rare or frequent.
+- The expensive option should be tempting for a real reason, and the cheaper option should be a reasonable alternative.
+- Costs should be realistic in 2019 US dollars.
+- Do not copy or lightly reword any example; write a different situation.
+- Write the decision in the second person ("you"), so that anyone could be shown it; do not mention the person's name or the profile.
+
+Reply with JSON only:
+{"text": "<the one-line decision>", "scenario": "<one or two sentences setting up the situation, in second person>", "options": [{"label": "<expensive option, no price>", "cost": <int>}, {"label": "<cheaper option, no price>", "cost": <int>}]}

@@ -1,0 +1,12 @@
+{
+  "source_commit": "839778bef7adf7fe44ae3b6cf273b5823eabdba0",
+  "source_sha256": {
+    "stimuli.json": "0f412c7bd2d29a4c7346f1aea251ad49382a560f6f4626c710e6b3de02e06860",
+    "features.json": "3c1823b938f3633a7acf93956b864b4ca59afeca5db0582699abd83f9c358464",
+    "output/full/stimulus_features.csv": "a66d38a42d557ff66722d80af4b8fd2fd10e08754ee2ea8743d91d4c9be74f10",
+    "output/full/stimulus_features_long.csv": "e9920858a6a38a39f48fb3d572673cd4e25828e8b9794222b2e01f2bb784f15e",
+    "output/full/moderation_mlm.csv": "f7cd571b1677e87e3c551e74e8bad97c9751a80f91307f1eb6c3b37bb75988d4"
+  },
+  "provenance": "Exact copies of the original frozen rating and moderator-estimate files; scenario texts and definitions already reside in the study directory.",
+  "scope": "Inputs for stimulus matching and report reproduction. Does not include participant-level choices, personas, or new ratings."
+}

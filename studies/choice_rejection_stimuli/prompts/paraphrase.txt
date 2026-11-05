@@ -1,0 +1,10 @@
+Here is one stimulus from a study about how other people's decisions influence our own:
+
+Situation: {situation}
+Who conveys the decision: {source}, via {channel}
+Choice-frame text: {choice_text}
+Rejection-frame text: {rejection_text}
+
+Rewrite it 5 times in different words. Keep the same situation, the same two options, the same person conveying it, the same channel and the same accept-or-reject verbs; change only the wording.
+
+Reply with JSON only: {"rewrites": [{"situation": "...", "source": "...", "channel": "...", "choice_text": "...", "rejection_text": "..."}, ... 5 in total]}

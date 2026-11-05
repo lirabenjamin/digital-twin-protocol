@@ -1,0 +1,22 @@
+Please take a moment to put yourself in the scenario below.
+
+{scenario}
+
+[Next screen]
+
+{intro}
+
+{frame_text}
+
+[Next screen]
+
+Which of the two options would you prefer?
+1 = Strongly prefer {option_1}
+2 = Moderately prefer {option_1}
+3 = Slightly prefer {option_1}
+4 = No preference
+5 = Slightly prefer {option_2}
+6 = Moderately prefer {option_2}
+7 = Strongly prefer {option_2}
+
+Answer with one number from 1 to 7.

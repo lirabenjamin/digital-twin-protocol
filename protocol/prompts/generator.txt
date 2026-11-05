@@ -1,0 +1,17 @@
+=== SYSTEM ===
+{system}
+
+=== USER ===
+{effect_description}
+
+Examples from the original studies:
+{examples}
+{running_list_block}
+Write {batch_size} NEW stimuli. Each one must be as different as possible from every stimulus above and from the other new ones, on all of these dimensions:
+{dimensions}
+
+Rules:
+{rules}
+
+Reply with JSON only:
+{"stimuli": [{schema}, ...]}

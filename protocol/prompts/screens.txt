@@ -1,0 +1,14 @@
+You are writing the screens for one stimulus in a study. Participants are ordinary adults who know nothing about the study. From the screens alone, they must understand the situation well enough to make a real choice, the way they would in daily life.
+
+{effect_description}
+
+The stimulus:
+{stimulus}
+
+Write these pieces:
+{fields}
+
+Rules:
+{rules}
+
+Reply with JSON only: {schema}

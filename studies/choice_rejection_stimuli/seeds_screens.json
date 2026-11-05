@@ -1,0 +1,156 @@
+[
+ {
+  "study": "1",
+  "situation": "watching a livestream shopping event for children's products and entering a lucky draw for a free kids' water bottle",
+  "category": "kids' insulated water bottle",
+  "option_a": {
+   "label": "Babycare bottle"
+  },
+  "option_b": {
+   "label": "Bei Ju Xiong bottle"
+  },
+  "source": "the livestream host (an influencer), about her friend",
+  "channel": "livestream",
+  "choice_text": "I asked my friend to decide between the two bottles the other day, and she chose the Bei Ju Xiong bottle.",
+  "rejection_text": "I asked my friend to decide between the two bottles the other day, and she did not choose the Babycare bottle.",
+  "human": {
+   "choice": 23.9,
+   "rejection": 36.6,
+   "n": 170
+  },
+  "scenario": "Imagine that you are watching a livestream shopping event for children's products, and you have just entered a lucky draw for a free kids' water bottle. You can pick which bottle you would like to receive if you win. The Babycare bottle is praised for its leak-proof lid and easy-to-clean design, while the Bei Ju Xiong bottle stands out for its cute cartoon look and a lightweight body that small hands can hold easily. Please think about whether you would choose Babycare bottle or Bei Ju Xiong bottle.",
+  "intro": "Before you make your choice, the host leans toward the camera and tells viewers:"
+ },
+ {
+  "study": "2",
+  "situation": "getting a free granola bar from a researcher on campus, right after your friend picks one",
+  "category": "granola bar",
+  "option_a": {
+   "label": "the Kashi bar"
+  },
+  "option_b": {
+   "label": "the other brand's bar"
+  },
+  "source": "your friend, seen in person",
+  "channel": "in-person observation",
+  "choice_text": "Your friend was asked which bar she wants and said she wants the other brand's bar.",
+  "rejection_text": "Your friend was asked which bar she does not want and said she does not want the Kashi bar.",
+  "human": {
+   "choice": 28.2,
+   "rejection": 56.1,
+   "n": 201
+  },
+  "scenario": "Imagine that you are walking across campus when a researcher at a small table offers you a free granola bar as part of a quick taste survey. You can take either the Kashi bar, which is made with whole grains and nuts and has a hearty, crunchy texture, or the other brand's bar, which is soft and chewy with chocolate chips and a sweeter flavor. You are a little hungry and have a few minutes before your next class. Please think about whether you would choose the Kashi bar or the other brand's bar.",
+  "intro": "Before you decide, you stand beside your friend at the table and watch as the researcher asks her:"
+ },
+ {
+  "study": "3a",
+  "situation": "booking a hotel room for a trip; breakfast is a buffet for $9 more and looks good in the photos",
+  "category": "hotel room add-on",
+  "option_a": {
+   "label": "breakfast-included room"
+  },
+  "option_b": {
+   "label": "room-only option"
+  },
+  "source": "a consumer who stayed there",
+  "channel": "review on a travel website",
+  "choice_text": "We were there last week and we chose the room-only option after doing some research. The room was nice and we enjoyed our stay.",
+  "rejection_text": "We were there last week and we did not choose the breakfast-included option after doing some research. The room was nice and we enjoyed our stay.",
+  "human": {
+   "choice": 23.2,
+   "rejection": 45.2,
+   "n": 288
+  },
+  "scenario": "Imagine that you are booking a hotel room for an upcoming trip. The breakfast-included room costs $9 more per night and comes with access to a buffet that looks good in the photos, with hot dishes, fresh fruit, and pastries. The room-only option is cheaper and leaves you free to explore local cafes or start your day on your own schedule. Please think about whether you would choose breakfast-included room or room-only option.",
+  "intro": "While comparing your choices, you come across a review on a travel website from a guest who stayed there:"
+ },
+ {
+  "study": "3b",
+  "situation": "buying instant ramen for lunch at a convenience store with your coworker Sam",
+  "category": "instant ramen",
+  "option_a": {
+   "label": "ramen 2"
+  },
+  "option_b": {
+   "label": "ramen 1"
+  },
+  "source": "your coworker Sam, seen in the store",
+  "channel": "in-person observation",
+  "choice_text": "Sam held both ramens side by side, examined them carefully, and put ramen 1, the one she wanted, in the shopping basket.",
+  "rejection_text": "Sam held both ramens side by side, examined them carefully, and put ramen 2, the one she did not want, back on the shelf.",
+  "human": {
+   "choice": 51.9,
+   "rejection": 64.4,
+   "n": 376
+  },
+  "scenario": "Imagine that you are at a convenience store picking up instant ramen for lunch. Two cups catch your eye on the shelf: ramen 2 is a rich, spicy pork flavor with thicker noodles, while ramen 1 is a lighter soy-and-chicken flavor that is ready in half the time. Both cost about the same, and you only want one. Please think about whether you would choose ramen 2 or ramen 1.",
+  "intro": "Before you decide, you glance down the aisle and notice Sam:"
+ },
+ {
+  "study": "3c",
+  "situation": "looking for a new house and choosing between two neighborhoods, Oakland and Squirrel Hill",
+  "category": "neighborhood to live in",
+  "option_a": {
+   "label": "Oakland"
+  },
+  "option_b": {
+   "label": "Squirrel Hill"
+  },
+  "source": "your realtor, about a mutual friend Susie",
+  "channel": "conversation in the car",
+  "choice_text": "You know Susie, our mutual friend? She was deciding between these two neighborhoods too. I heard she decided to choose Squirrel Hill.",
+  "rejection_text": "You know Susie, our mutual friend? She was deciding between these two neighborhoods too. I heard she decided not to choose Oakland.",
+  "human": {
+   "choice": 46.9,
+   "rejection": 60.5,
+   "n": 379
+  },
+  "scenario": "Imagine that you are looking for a new house and have narrowed your search to two neighborhoods, Oakland and Squirrel Hill. Oakland is lively and convenient, with a short commute to work and plenty of restaurants, shops, and cultural venues nearby. Squirrel Hill is quieter and more residential, with tree-lined streets, a walkable main street, and larger homes for the price. Please think about whether you would choose Oakland or Squirrel Hill.",
+  "intro": "Before you decide, you are riding in the car with your realtor, who mentions:"
+ },
+ {
+  "study": "4",
+  "situation": "planning a summer getaway to Miami and comparing discounted hotels on Tripadvisor (the original had three hotels; shown here as two)",
+  "category": "hotel",
+  "option_a": {
+   "label": "Hotel Soho"
+  },
+  "option_b": {
+   "label": "Ivy Hotel"
+  },
+  "source": "another traveler",
+  "channel": "reply to your question on a Tripadvisor forum",
+  "choice_text": "I was deciding between these hotels. I did some research and decided to stay at Ivy.",
+  "rejection_text": "I was deciding between these hotels. I did some research and decided not to stay at Hotel Soho.",
+  "human": {
+   "choice": 29.7,
+   "rejection": 54.5,
+   "n": 293
+  },
+  "scenario": "Imagine that you are planning a summer getaway to Miami and comparing discounted hotels on Tripadvisor. Hotel Soho is a short walk from the beach and has a rooftop pool, while Ivy Hotel is in a quieter neighborhood with a free breakfast and larger rooms. Both are currently offered at a reduced rate for your dates, and each has plenty of positive reviews. Please think about whether you would choose Hotel Soho or Ivy Hotel.",
+  "intro": "Before you decide, you post a question on a Tripadvisor forum and another traveler replies:"
+ },
+ {
+  "study": "5",
+  "situation": "buying discounted Bluetooth headphones on Black Friday; one model has a slightly longer battery life, the other weighs less",
+  "category": "Bluetooth headphones",
+  "option_a": {
+   "label": "WH-L600"
+  },
+  "option_b": {
+   "label": "HQX700"
+  },
+  "source": "another consumer",
+  "channel": "reply to your question on an online forum",
+  "choice_text": "He also saw the deal and decided to buy HQX700 after doing some research.",
+  "rejection_text": "He also saw the deal and decided not to buy WH-L600 after doing some research.",
+  "human": {
+   "choice": 25.9,
+   "rejection": 34.6,
+   "n": 582
+  },
+  "scenario": "Imagine that you are shopping online on Black Friday and have found two Bluetooth headphone models, both discounted to a similar price. The WH-L600 has a slightly longer battery life, so it would go longer between charges. The HQX700 is a bit lighter, so it would feel more comfortable during long wear. You have decided to buy one of them today while the deals last. Please think about whether you would choose WH-L600 or HQX700.",
+  "intro": "Before you decide, you post a question on an online forum and get this reply from another consumer:"
+ }
+]

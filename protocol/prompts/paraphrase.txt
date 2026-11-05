@@ -1,0 +1,10 @@
+Here is one stimulus from a study.
+
+{effect_description}
+
+The stimulus:
+{stimulus}
+
+Rewrite it {n} times in different words. {keep}
+
+Reply with JSON only: {"rewrites": [{schema}, ... {n} in total]}

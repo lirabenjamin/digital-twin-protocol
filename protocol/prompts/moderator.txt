@@ -1,0 +1,13 @@
+Below is one stimulus from a study.
+
+{effect_description}
+
+{stimulus}
+
+Rate this stimulus on one feature.
+
+Feature: {name}. {question}
+0 = {anchor0}
+10 = {anchor10}
+
+Use the whole scale from 0 to 10. Reply with JSON only: {"rating": <whole number from 0 to 10>}

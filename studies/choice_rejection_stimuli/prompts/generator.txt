@@ -1,0 +1,29 @@
+=== SYSTEM ===
+You write stimuli for a consumer-behavior study about how other people's decisions influence our own.
+
+=== USER ===
+In each stimulus, a person faces a choice between exactly two options, A and B. Before deciding, the person learns that someone else faced the same choice and ended up with B. That decision is described in one of two matched ways:
+- Choice frame: the other person chose, took, kept or accepted B.
+- Rejection frame: the other person did not choose, put back, returned or rejected A.
+The two versions must say the same thing in every other word, and both must make clear that the other person ended up with B.
+
+Examples from the original studies:
+{examples}
+
+Stimuli written so far ({n_so_far}):
+{running_list}
+
+Write {batch_size} NEW stimuli. Each one must be as different as possible from every stimulus above and from the other new ones, on all four of these:
+1. The product, service or decision: any area of life (food, travel, tech, health, home, finance, education, leisure, kids, pets, cars, clothing, services, subscriptions, ...), any price level.
+2. Who conveys the other person's decision: for example an online reviewer, a friend, a family member, a coworker, a salesperson, an influencer, an expert, a stranger you observe.
+3. How you learn it: for example a written review, a forum reply, a text message, a conversation, seeing them do it in a store, a social media post.
+4. How the accept or reject is said: for example chose / did not choose, took / left, kept / returned, put in the basket / put back, signed up for / turned down, added / removed, picked / passed on.
+
+Rules:
+- The choice must be truly binary: A and B are the only two realistic options in the situation.
+- Neither option should be obviously better. Each has a real reason to pick it.
+- The two frame texts differ only in the accept-or-reject phrase and in which option it names.
+- Write the situation in the second person ("you").
+
+Reply with JSON only:
+{"stimuli": [{"situation": "<what you are trying to do and the two options, one or two sentences>", "category": "<the product, service or decision category>", "option_a": {"label": "<the option the other person did NOT end up with>"}, "option_b": {"label": "<the option the other person ended up with>"}, "source": "<who conveys the decision>", "channel": "<how you learn it>", "choice_text": "<the choice-frame text>", "rejection_text": "<the rejection-frame text>"}, ...]}
