@@ -2,7 +2,7 @@
 
 This repository holds a protocol for pre-testing many stimuli of a behavioral effect with LLM "digital twins" before running a human study. It also holds the complete proof of concept: the choice-versus-rejection framing effect (Nan, Park & Yang 2023), tested on 100 generated stimuli with 2,058 twins.
 
-The twins are the Twin-2K-500 personas (Toubia et al. 2025). Each persona is the full survey record of one real US adult. Claude answers each study screen as that person would.
+The twins are the Twin-2K-500 personas (Toubia et al. 2025). Each persona is the full survey record of one real US adult. An LLM (here, Claude) answers each study screen as that person would.
 
 ## The protocol in one paragraph
 
