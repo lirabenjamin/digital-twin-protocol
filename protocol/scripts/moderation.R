@@ -1,7 +1,6 @@
 # Step 9. Test each candidate moderator of the effect with a mixed model, one moderator at a time.
 #
 #   Rscript scripts/moderation.R output/choice_rejection   # after run_twins.py and rate_moderators.py
-#   Rscript scripts/moderation.R output/fake                # the synthetic data from make_fake_data.py
 #
 # Reads <dir>/choices.csv (pid, stimulus, treat, y) and <dir>/stimulus_moderators.csv (stimulus + one
 # column per moderator, the mean of the 0-10 ratings).

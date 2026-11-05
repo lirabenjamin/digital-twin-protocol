@@ -13,7 +13,6 @@ Effect = DV in the second condition minus DV in the first, paired within twin x 
 
     python scripts/results.py --dry-run              # what it reads and writes
     python scripts/results.py                        # reads <output_dir>/choices.csv
-    python scripts/results.py --config output/fake/config.yaml   # the synthetic data from make_fake_data.py
 """
 import json
 from pathlib import Path

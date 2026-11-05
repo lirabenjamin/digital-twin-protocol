@@ -28,14 +28,3 @@ All outputs go to `output_dir` from the config.
 | 9. Moderation | `Rscript scripts/moderation.R output/<name>` | `moderation.csv`, `moderator_cor.csv`, `moderator_pca.csv`, `moderator_cor.png` |
 
 Claude calls are cached on disk in `../cache/`, so a rerun only pays for what is missing. Every call adds its cost to `spend.jsonl`, and calls stop at `budget_usd`.
-
-## Try it with no API key
-
-```sh
-python scripts/make_fake_data.py                                              # synthetic data with a known truth
-python scripts/select_stimuli.py --config output/fake/config.yaml --offline-embeddings
-python scripts/results.py --config output/fake/config.yaml
-Rscript scripts/moderation.R output/fake
-```
-
-In the fake data, the true effect is 0.6 points on the 7-point scale and only `fake_driver` moderates it. The moderation step flags `fake_driver` and also `fake_correlated`, a moderator built to correlate with it. Correlated moderators pass or fail together, which is why the script also writes the moderator correlation matrix. `--offline-embeddings` uses a crude bag-of-words stand-in for testing only.
